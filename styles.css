@@ -1,6 +1,6 @@
-* {
+/* * {
   border: 1px solid white;
-}
+} */
 
 html {
   scroll-behavior: smooth;
@@ -24,6 +24,8 @@ body {
   color: white;
 
 }
+
+
 header {
   padding-left: 4%;
 }
@@ -48,11 +50,15 @@ p {
   display:flex;
   justify-content: right;
   list-style-type: none;
-  font-size: 250%;
+  font-size: 300%;
   font-family: 'JosefinSans-Regular';
   margin: 10%;
-  padding: 4%;
+  padding: 2%;
+}
 
+.nav-list:hover {
+  cursor: pointer;
+  transform: scale(1.5)
 }
 
 .navbar-div {
@@ -62,12 +68,12 @@ p {
 
 img {
   max-width: 400px;
-  /* padding: 8%; */
+  /* padding: 4%; */
+
 }
-
-.lilypics-div {
-
-
+.carousel-images {
+  border: 2px solid black;
+  border-radius: 10px;
 }
 
 .imgbar {
@@ -75,12 +81,12 @@ img {
   flex flow: row wrap;
   justify-content: space-around;
   flex-shrink: 1;
+  height: 700px;
 }
 
-#bio {
+#about {
   height: 1000px;
 }
-
 
 #resume {
   height: 1000px;
@@ -95,5 +101,49 @@ img {
 .nav-anchor {
   text-decoration: none;
   color: white;
+}
 
+.about-text {
+  padding-left: 10%;
+  padding-right: 30%;
+  padding-top: 10%;
+  text-align: justify;
+}
+
+.carousel-images img {
+  display: none;
+}
+
+.carousel-images img:first-of-type {
+  display: block;
+}
+
+/* .carousel-container {
+  display: flex;
+
+} */
+
+.carousel-button {
+	align-self: center;
+	background: black;
+	/* color: #888; */
+	padding: 10px;
+	border-radius: 50%;
+	text-align: center;
+	/* box-shadow: 1.5px 1.5px white; */
+
+}
+
+
+.previous img, .next img {
+  height: 20px;
+  width: 20px;
+}
+
+.previous img:hover{
+  transform: scale(2)
+}
+
+.next img:hover {
+  transform: scale(2)
 }
