@@ -1,0 +1,77 @@
+/* * {
+  border: 1px solid white;
+} */
+
+/* @font-face {
+  font-family: 'LeagueSpartan-Bold';
+  src: url(league-spartan/LeagueSpartan-Bold.otf);
+
+} */
+
+@font-face {
+  font-family: 'JosefinSans-Regular';
+  src: url(josefin-sans/josefinsans-regular.ttf);
+
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  background: black;
+  color: white;
+
+}
+header {
+  padding-left: 4%;
+}
+
+.header {
+
+  font-family: 'JosefinSans-Regular';
+  word-spacing: 2px;
+  letter-spacing: 2px;
+}
+
+#header-name {
+  font-size: 500%;
+}
+
+
+.nav-list {
+  display:flex;
+  justify-content: right;
+  list-style-type: none;
+  font-size: 250%;
+  font-family: 'JosefinSans-Regular';
+  margin: 10%;
+  padding: 4%;
+
+}
+
+.navbar-div {
+  text-align: right;
+  justify-content: right;
+
+
+
+}
+
+img {
+  max-width: 400px;
+  padding: 8%;
+  border-radius: 10px;
+
+}
+
+.lilypics-div {
+  max-width: 50%;
+  border-radius: 10px;
+
+}
+
+.imgbar {
+  display: flex;
+  flex flow: row wrap;
+  justify-content: space-around;
+  flex-shrink: 1;
+}
