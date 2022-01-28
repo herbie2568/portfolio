@@ -1,7 +1,11 @@
 /* * {
   border: 1px solid white;
 } */
-
+@media screen and (max-width: 800px) {
+  body {
+    font-size: 20px;
+  }
+}
 html {
   scroll-behavior: smooth;
 }
@@ -28,10 +32,12 @@ body {
 
 header {
   padding-left: 4%;
+  display: flex;
+  justify-content: center;
 }
 
 p {
-  font-size: 4vw;
+  font-size: 36px;
   font-family: 'Montserrat', sans-serif;
 }
 .header {
@@ -50,7 +56,7 @@ p {
   display:flex;
   justify-content: right;
   list-style-type: none;
-  font-size: 300%;
+  font-size: 2rem;
   font-family: 'JosefinSans-Regular';
   margin: 10%;
   padding: 2%;
@@ -61,13 +67,24 @@ p {
   transform: scale(1.5)
 }
 
+.nav-bar {
+  right: 5%;
+  position: fixed;
+  /* margin-right: 5%; */
+
+}
+
 .navbar-div {
   text-align: right;
   justify-content: right;
+
+
 }
 
 img {
   max-width: 400px;
+  margin-left:20%;
+  margin-top: 5%;
   /* padding: 4%; */
 
 }
@@ -76,12 +93,17 @@ img {
   border-radius: 10px;
 }
 
+.lilypics_div {
+
+
+}
 .imgbar {
   display: flex;
   flex flow: row wrap;
-  justify-content: space-around;
+  justify-content: flex-start;
   flex-shrink: 1;
   height: 700px;
+
 }
 
 #about {
@@ -94,6 +116,11 @@ img {
 #projects {
   height: 1000px;
 }
+
+#gallery {
+  height: 1000px;
+}
+
 #links {
   height: 1000px;
 }
@@ -103,12 +130,7 @@ img {
   color: white;
 }
 
-.about-text {
-  padding-left: 10%;
-  padding-right: 30%;
-  padding-top: 10%;
-  text-align: justify;
-}
+
 
 .carousel-images img {
   display: none;
@@ -146,4 +168,17 @@ img {
 
 .next img:hover {
   transform: scale(2)
+}
+
+h2 {
+  font-size: 52px;
+  font-family: 'JosefinSans-Regular';
+  padding-left: 10%
+}
+
+.about-text, .resume-text, .projects-text, .gallery-text, .links-text {
+  padding-left: 10%;
+  padding-right: 30%;
+  /* padding-top: 5%; */
+  text-align: left;
 }
