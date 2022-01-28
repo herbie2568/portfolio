@@ -100,7 +100,7 @@ $(`<a href = 'https://lilysbotwgame.netlify.app/' target = '/blank' >`).appendTo
 
 ////gallery////
 $('<h2>').appendTo('#gallery').text('gallery')
-$('<p>').appendTo('#gallery').text('Here are some pictures of me').addClass('gallery-text')
+// $('<p>').appendTo('#gallery').text('Here are some pictures of me').addClass('gallery-text')
 
 ////links////
 $('<h2>').appendTo('#links').text('links')

@@ -50,7 +50,8 @@ p {
 }
 
 .header-description {
-  font-family: 'JosefinSans-Regular';
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
   font-size: 24px;
   padding-left: 1%;
 }
@@ -190,11 +191,14 @@ h2 {
   padding-right: 30%;
   /* padding-top: 5%; */
   text-align: left;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 100;
 }
 
-.projects-text, .links-text {
+.projects-text, .links-text, .resume-text {
   font-size: 36px;
   font-family: 'Montserrat', sans-serif;
+  font-weight: 100;
   padding-left: 10%;
   text-decoration: none;
   color: white;
@@ -202,14 +206,14 @@ h2 {
 
 .zelda-div, .github-div {
   margin-top: 20%;
-  margin-bottom: 5%;
+  margin-bottom: 3%;
 }
 
 .linkedin-div, .facebook-div, .instagram-div {
-  margin-bottom: 5%;
+  margin-bottom: 3%;
 }
 
-.zelda-div:hover, .github-div:hover, .linkedin-div:hover, .facebook-div:hover, .instagram-div:hover {
+.zelda-div:hover, .github-div:hover, .linkedin-div:hover, .facebook-div:hover, .instagram-div:hover, .twitter-div:hover {
   transform: scale(1.2)
 }
 
