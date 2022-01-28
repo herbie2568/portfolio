@@ -6,53 +6,14 @@ $('<div>').text('LILY CHEN').appendTo('header').addClass('header').attr('id', 'h
 $('<div>').text('full stack web developer').appendTo('header').addClass('header-description')
 // $('<div>').text('Web Developer | ').appendTo('header').addClass('header').attr('id', 'header-description')
 
-/////CAROUSEL IMAGES/////
-const $imgBar = $('<div>').appendTo('body').addClass('imgbar').addClass('carousel-images')
-$('<div>').addClass('arrow-img').appendTo($imgBar)
-// $('<div>').appendTo('.carousel-images').addClass('carousel-button').addClass('previous')
-// $(`<img src = 'lilypics/left_arrow.png'>`).appendTo('.previous')
-$('<div>').addClass('carousel-container').appendTo($imgBar).addClass('lilypics-div')
+/////MAIN IMAGE/////
+const $imgBar = $('<div>').appendTo('body').addClass('imgbar')
+
+$('<div>').appendTo($imgBar).addClass('lilypics-div')
 
 ///central park pic//
-$(`<img src ='lilypics/IMG_3661.jpeg'>`).appendTo('.lilypics-div').addClass('carousel-images')
-// //bear mountain//
-$(`<img src ='lilypics/IMG_5255.jpg'>`).appendTo('.lilypics-div').addClass('carousel-images')
-//aquarium//
-$(`<img src ='lilypics/IMG_7627.HEIC.jpg'>`).appendTo('.lilypics-div').addClass('carousel-images')
-//roxie CT//
-$(`<img src ='lilypics/IMG_8047.HEIC.jpg'>`).appendTo('.lilypics-div').addClass('carousel-images')
-//holland tunnel vent//
-$(`<img src ='lilypics/IMG_8509.HEIC.jpg'>`).appendTo('.lilypics-div').addClass('carousel-images')
-//madison sq park//
-$(`<img src ='lilypics/IMG_8826.HEIC.jpg'>`).appendTo('.lilypics-div').addClass('carousel-images')
-// $('<div>').appendTo('.carousel-images').addClass('carousel-button').addClass('next')
-// $(`<img src = 'lilypics/right_arrow.png'>`).appendTo('.next')
+$(`<img src ='lilypics/IMG_3661.jpeg'>`).appendTo('.lilypics-div').addClass('main-pic')
 
-////CAROUSEL JQUERY////
-const $carousel = () => {
-currentImgIndex = 0
-  numOfImages= $('.carousel-images').children().length - 1
-  $('.next').on('click', ()=> {
-    $('.carousel-images').children().eq(currentImgIndex).css('display', 'none')
-    if (currentImgIndex < numOfImages) {
-      currentImgIndex++
-    } else {
-      currentImgIndex = 0
-    }
-    $('.carousel-images').children().eq(currentImgIndex).css('display', 'block')
-  })
-
-  $('.previous').on('click', () => {
-    $('.carousel-images').children().eq(currentImgIndex).css('display', 'none')
-    if (currentImgIndex > 0) {
-        currentImgIndex--
-    } else {
-        currentImgIndex = numOfImages
-    }
-    $('.carousel-images').children().eq(currentImgIndex).css('display', 'block')
-  })
-
-}
 
 ////NAV BAR/////
 const $navBar = $('<div>').addClass('navbar-div').appendTo('.imgbar')
@@ -106,6 +67,60 @@ $(`<a href = 'https://lilysbotwgame.netlify.app/' target = '/blank' >`).appendTo
 $('<h2>').appendTo('#gallery').text('gallery')
 // $('<p>').appendTo('#gallery').text('Here are some pictures of me').addClass('gallery-text')
 
+$('<div>').appendTo('#gallery').addClass('carousel-container')
+////previous arrow////
+$('<div>').appendTo('.carousel-container').addClass('carousel-button').addClass('previous')
+$(`<img src = 'lilypics/left_arrow.png'>`).appendTo('.previous')
+
+////carousel images////
+$('<div>').appendTo('.carousel-container').addClass('carousel-images')
+//bear mountain//
+$(`<img src ='lilypics/IMG_5463.HEIC.jpg'>`).appendTo('.carousel-images')
+//aquarium//
+$(`<img src ='lilypics/IMG_7627.HEIC.jpg'>`).appendTo('.carousel-images')
+//roxie CT//
+$(`<img src ='lilypics/IMG_8047.HEIC.jpg'>`).appendTo('.carousel-images')
+//holland tunnel vent//
+$(`<img src ='lilypics/IMG_8509.HEIC.jpg'>`).appendTo('.carousel-images')
+//madison sq park//
+$(`<img src ='lilypics/IMG_8826.HEIC.jpg'>`).appendTo('.carousel-images')
+//roxie south st seaport//
+$(`<img src ='lilypics/IMG_6193.HEIC.jpg'>`).appendTo('.carousel-images')
+//citibike//
+$(`<img src ='lilypics/IMG_6934.HEIC.jpg'>`).appendTo('.carousel-images')
+//bday pic//
+$(`<img src ='lilypics/IMG_8551 2.HEIC.jpg'>`).appendTo('.carousel-images')
+
+
+/////next arrow////
+$('<div>').appendTo('.carousel-container').addClass('carousel-button').addClass('next')
+$(`<img src = 'lilypics/right_arrow.png'>`).appendTo('.next')
+
+////CAROUSEL JQUERY//////
+currentImgIndex = 0
+  numOfImages= $('.carousel-images').children().length - 1
+  $('.next').on('click', ()=> {
+    $('.carousel-images').children().eq(currentImgIndex).css('display', 'none')
+    if (currentImgIndex < numOfImages) {
+      currentImgIndex++
+    } else {
+      currentImgIndex = 0
+    }
+    $('.carousel-images').children().eq(currentImgIndex).css('display', 'block')
+  })
+
+  $('.previous').on('click', () => {
+    $('.carousel-images').children().eq(currentImgIndex).css('display', 'none')
+    if (currentImgIndex > 0) {
+        currentImgIndex--
+    } else {
+        currentImgIndex = numOfImages
+    }
+    $('.carousel-images').children().eq(currentImgIndex).css('display', 'block')
+  })
+
+
+
 ////links////
 $('<h2>').appendTo('#links').text('links')
 ///GITHUB////
@@ -125,6 +140,17 @@ $(`<a href = 'https://www.instagram.com/sugarsmaster/' target = '/blank'>`).appe
 ////TWITTER////
 $('<div>').appendTo('#links').addClass('reddit-div')
 $(`<a href = 'https://www.reddit.com/user/herbie2568' target = '/blank'>`).appendTo('.reddit-div').text('reddit').addClass('links-text')
+
+
+/////FOOTER////
+$('<footer>').appendTo('body').addClass('footer')
+
+$('<div>').appendTo('.footer').addClass('footer-div')
+$(`<a href ='#' class= 'fa fa-facebook'>`).appendTo('.footer-div')
+// $('<div>').appendTo('.footer').addClass('footer-div')
+$(`<a href ='#' class= 'fa fa-instagram'>`).appendTo('.footer-div')
+
+
 
 
 

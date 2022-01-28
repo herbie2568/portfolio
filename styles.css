@@ -91,17 +91,14 @@ p {
 
 }
 
-img {
+.main-pic {
   max-width: 400px;
   margin-left: 30%;
   margin-top: 10%;
   /* padding: 4%; */
 
 }
-.carousel-images {
-  border: 2px solid black;
-  border-radius: 10px;
-}
+
 
 .lilypics_div {
 
@@ -139,33 +136,6 @@ img {
   text-decoration: none;
   color: lightgrey;
 }
-
-
-
-.carousel-images img {
-  display: none;
-}
-
-.carousel-images img:first-of-type {
-  display: block;
-}
-
-/* .carousel-container {
-  display: flex;
-
-} */
-
-.carousel-button {
-	align-self: center;
-	background: black;
-	/* color: #888; */
-	padding: 10px;
-	border-radius: 50%;
-	text-align: center;
-	/* box-shadow: 1.5px 1.5px white; */
-
-}
-
 
 .previous img, .next img {
   height: 20px;
@@ -220,11 +190,63 @@ h2 {
 }
 
 
-/* .github-div {
-display: inline;
-} */
-
 .link-images img{
   height: 30px;
   width: 30px;
+}
+
+.fa {
+  /* padding: 20px;
+  font-size: 30px; */
+  width: 20px;
+  text-align: center;
+  text-decoration: none;
+
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.carousel-container {
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 10%;
+  padding-top: 10%;
+
+}
+
+.carousel-images {
+  width: 50%;
+
+}
+
+.carousel-images img{
+  width: min(100%, 500px);
+  border-radius: 10px;
+  display: none;
+  /* border: 1px solid white; */
+
+}
+
+.carousel-button {
+	align-self: center;
+	background: black;
+	/* color: #888; */
+	padding: 10px;
+	border-radius: 50%;
+
+	text-align: center;
+	/* box-shadow: 1.5px 1.5px white; */
+}
+
+.carousel-button:hover {
+	cursor: pointer;
+
+}
+
+.carousel-images img:first-of-type {
+	display: block;
+
 }
