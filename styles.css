@@ -1,6 +1,6 @@
-/* * {
+* {
   border: 1px solid white;
-} */
+}
 @media screen and (max-width: 800px) {
   body {
     font-size: 20px;
@@ -31,9 +31,11 @@ body {
 
 
 header {
-  padding-left: 4%;
+  padding-top: 7%;
+  padding-left: 8%;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
+  flex-direction: column;
 }
 
 p {
@@ -43,12 +45,19 @@ p {
 .header {
 
   font-family: 'JosefinSans-Regular';
-  word-spacing: 2px;
-  letter-spacing: 2px;
+  /* word-spacing: 2px; */
+  /* letter-spacing: 2px; */
+}
+
+.header-description {
+  font-family: 'JosefinSans-Regular';
+  font-size: 24px;
+  padding-left: 1%;
 }
 
 #header-name {
-  font-size: 500%;
+  font-size: 550%;
+
 }
 
 
@@ -83,8 +92,8 @@ p {
 
 img {
   max-width: 400px;
-  margin-left:20%;
-  margin-top: 5%;
+  margin-left: 30%;
+  margin-top: 10%;
   /* padding: 4%; */
 
 }
@@ -181,4 +190,34 @@ h2 {
   padding-right: 30%;
   /* padding-top: 5%; */
   text-align: left;
+}
+
+.projects-text, .links-text {
+  font-size: 36px;
+  font-family: 'Montserrat', sans-serif;
+  padding-left: 10%;
+  text-decoration: none;
+  color: white;
+}
+
+.zelda-div, .github-div {
+  margin-top: 20%;
+  margin-bottom: 5%;
+}
+
+.linkedin-div, .facebook-div, .instagram-div {
+  margin-bottom: 5%;
+}
+
+.zelda-div:hover, .github-div:hover, .linkedin-div:hover, .facebook-div:hover, .instagram-div:hover {
+  transform: scale(1.2)
+}
+
+/* .github-div {
+display: inline;
+} */
+
+.link-images img{
+  height: 30px;
+  width: 30px;
 }

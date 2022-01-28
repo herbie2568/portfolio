@@ -2,7 +2,8 @@
 $(() => {
 ////HEADER/////
 // const $h1 = $('<div>').appendTo
-$('<h1>').text('LILY CHEN').appendTo('header').addClass('header').attr('id', 'header-name')
+$('<div>').text('LILY CHEN').appendTo('header').addClass('header').attr('id', 'header-name')
+$('<div>').text('full stack web developer').appendTo('header').addClass('header-description')
 // $('<div>').text('Web Developer | ').appendTo('header').addClass('header').attr('id', 'header-description')
 
 /////CAROUSEL IMAGES/////
@@ -10,7 +11,7 @@ const $imgBar = $('<div>').appendTo('body').addClass('imgbar').addClass('carouse
 $('<div>').addClass('arrow-img').appendTo($imgBar)
 // $('<div>').appendTo('.carousel-images').addClass('carousel-button').addClass('previous')
 // $(`<img src = 'lilypics/left_arrow.png'>`).appendTo('.previous')
-$('<div>').appendTo($imgBar).addClass('lilypics-div')
+$('<div>').addClass('carousel-container').appendTo($imgBar).addClass('lilypics-div')
 
 ///central park pic//
 $(`<img src ='lilypics/IMG_3661.jpeg'>`).appendTo('.lilypics-div').addClass('carousel-images')
@@ -57,7 +58,7 @@ currentImgIndex = 0
 const $navBar = $('<div>').addClass('navbar-div').appendTo('.imgbar')
 $('<ul>').appendTo($navBar).addClass('nav-bar')
 $('<li>').appendTo('.nav-bar').addClass('nav-list').attr('id', 'home-li')
-$('<a href= #home>').appendTo('#home-li').text('home').addClass('nav-anchor')
+$('<a href= #header-name>').appendTo('#home-li').text('home').addClass('nav-anchor')
 $('<li>').appendTo('.nav-bar').addClass('nav-list').attr('id', 'about-li')
 $('<a href= #about>').appendTo('#about-li').text('about').addClass('nav-anchor')
 $('<li>').appendTo('.nav-bar').addClass('nav-list').attr('id', 'resume-li')
@@ -81,7 +82,7 @@ $('<section>').attr('id', 'links').appendTo('.stuff')
 
 //////about///////
 $('<h2>').appendTo('#about').text('about')
-$('<p>').appendTo('#about').text('Hi, I\'m Lily! I\'m a software engineer based in Brooklyn, NY. I enjoy doing front end and back end development. My hobbies include swimming, biking, playing the piano/cello, and solving Rubik\'s cubes. I\'m also a bit of a Jeopardy nerd and I watch it religiously. I love learning new things and am constantly honing my current skills. Feel free to check out my random stuff in the links!').addClass('about-text')
+$('<p>').appendTo('#about').text('Hi, I\'m Lily! I\'m a software engineer based in Brooklyn, NY. I enjoy doing front end and back end development. My hobbies include biking, playing the piano/cello, and solving Rubik\'s cubes. I\'m also a bit of a Jeopardy nerd and I try to keep up with every episode. I love learning new things and am constantly honing my current skills. Feel free to check out my random stuff in the links!').addClass('about-text')
 
 
 ////resume//////
@@ -91,14 +92,33 @@ $('<p>').appendTo('#resume').text('Hi, I\'m Lily! I\'m a software engineer based
 
 ///projects////
 $('<h2>').appendTo('#projects').text('projects')
-$('<p>').appendTo('#projects').text('Hi, I\'m Lily! I\'m a software engineer based in Brooklyn, NY. Feel free to check out my stuff in the links!').addClass('projects-text')
+$('<div>').appendTo('#projects').addClass('zelda-div')
+$(`<a href = 'https://lilysbotwgame.netlify.app/' target = '/blank' >`).appendTo('.zelda-div').text('The Legend of Zelda Game').addClass('projects-text')
 
 ////gallery////
 $('<h2>').appendTo('#gallery').text('gallery')
-$('<p>').appendTo('#gallery').text('Hi, I\'m Lily! I\'m a software engineer based in Brooklyn, NY. Feel free to check out my stuff in the links!').addClass('gallery-text')
+$('<p>').appendTo('#gallery').text('Here are some pictures of me').addClass('gallery-text')
 
 ////links////
 $('<h2>').appendTo('#links').text('links')
-$('<p>').appendTo('#links').text('Hi, I\'m Lily! I\'m a software engineer based in Brooklyn, NY. Feel free to check out my stuff in the links!').addClass('links-text')
+///GITHUB////
+$('<div>').appendTo('#links').addClass('github-div')
+$(`<a href = 'https://github.com/herbie2568' target = '/blank'>`).appendTo('.github-div').text('Github').addClass('links-text')
+// $('<div>').appendTo('.github-div').addClass('github-image-div')
+// $(`<img src ='lilypics/github_icon.png'>`).appendTo('.github-div').addClass('link-images')
+///LINKEDIN////
+$('<div>').appendTo('#links').addClass('linkedin-div')
+$(`<a href = 'https://www.linkedin.com/in/lilychen910/' target = '/blank'>`).appendTo('.linkedin-div').text('LinkedIn').addClass('links-text')
+////FACEBOOK////
+$('<div>').appendTo('#links').addClass('facebook-div')
+$(`<a href = 'https://www.facebook.com/lilyp4d/' target = '/blank'>`).appendTo('.facebook-div').text('Facebook').addClass('links-text')
+////INSTAGRAM////
+$('<div>').appendTo('#links').addClass('instagram-div')
+$(`<a href = 'https://www.instagram.com/sugarsmaster/' target = '/blank'>`).appendTo('.instagram-div').text('Instagram').addClass('links-text')
+////TWITTER////
+$('<div>').appendTo('#links').addClass('twitter-div')
+$(`<a href = 'https://twitter.com/herbie2568' target = '/blank'>`).appendTo('.twitter-div').text('Twitter').addClass('links-text')
+
+
 
 })
