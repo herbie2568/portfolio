@@ -82,7 +82,7 @@ $('<section>').attr('id', 'links').appendTo('.stuff')
 
 //////about///////
 $('<h2>').appendTo('#about').text('about')
-$('<p>').appendTo('#about').text('Hi, I\'m Lily! I\'m a software engineer based in Brooklyn, NY. I enjoy doing front end and back end development. My hobbies include biking, playing the piano/cello, and solving Rubik\'s cubes. I\'m also a bit of a Jeopardy nerd and I try to keep up with every episode. I love learning new things and am constantly honing my current skills. Feel free to check out my random stuff in the links!').addClass('about-text')
+$('<p>').appendTo('#about').text('Hi, I\'m Lily! I\'m a software engineer based in Brooklyn, NY. I enjoy doing front end and back end development. You will usually find me biking, swimming, playing the piano/cello, solving Rubik\'s cubes, or walking my dog Roxie. I\'m also a bit of a Jeopardy nerd and do watch it religiously. I love learning new things and am constantly honing my current skills. Feel free to check out my random stuff in the links!').addClass('about-text')
 
 
 ////resume//////
