@@ -87,7 +87,10 @@ $('<p>').appendTo('#about').text('Hi, I\'m Lily! I\'m a software engineer based 
 
 ////resume//////
 $('<h2>').appendTo('#resume').text('resume')
-$('<p>').appendTo('#resume').text('Hi, I\'m Lily! I\'m a software engineer based in Brooklyn, NY. Feel free to check out my stuff in the links!').addClass('resume-text')
+$('<p>').appendTo('#resume').text('Experience').addClass('resume-text')
+$('<p>').appendTo('#resume').text('Education').addClass('resume-text')
+$('<p>').appendTo('#resume').text('Skills').addClass('resume-text')
+$('<p>').appendTo('#resume').text('Awards and Honors').addClass('resume-text')
 
 
 ///projects////
