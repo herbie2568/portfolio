@@ -2,6 +2,9 @@
 $(() => {
 ////HEADER/////
 // const $h1 = $('<div>').appendTo
+
+
+
 $('<div>').text('LILY CHEN').appendTo('header').addClass('header').attr('id', 'header-name')
 $('<div>').text('full stack web developer').appendTo('header').addClass('header-description')
 // $('<div>').text('Web Developer | ').appendTo('header').addClass('header').attr('id', 'header-description')

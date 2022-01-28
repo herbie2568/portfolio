@@ -9,17 +9,12 @@
 html {
   scroll-behavior: smooth;
 }
-/* @font-face {
-  font-family: 'LeagueSpartan-Bold';
-  src: url(league-spartan/LeagueSpartan-Bold.otf);
-
-} */
 
 @font-face {
   font-family: 'JosefinSans-Regular';
   src: url(josefin-sans/josefinsans-regular.ttf);
-
 }
+
 
 body {
   display: flex;
