@@ -137,7 +137,7 @@ img {
 
 .nav-anchor {
   text-decoration: none;
-  color: white;
+  color: lightgrey;
 }
 
 
@@ -193,6 +193,7 @@ h2 {
   text-align: left;
   font-family: 'Montserrat', sans-serif;
   font-weight: 100;
+  color: lightgrey;
 }
 
 .projects-text, .links-text, .resume-text {
@@ -201,7 +202,7 @@ h2 {
   font-weight: 100;
   padding-left: 10%;
   text-decoration: none;
-  color: white;
+  color: lightgrey;
 }
 
 .zelda-div, .github-div {
@@ -213,9 +214,11 @@ h2 {
   margin-bottom: 3%;
 }
 
-.zelda-div:hover, .github-div:hover, .linkedin-div:hover, .facebook-div:hover, .instagram-div:hover, .twitter-div:hover {
-  transform: scale(1.2)
+.zelda-div:hover, .github-div:hover, .linkedin-div:hover, .facebook-div:hover, .instagram-div:hover, .reddit-div:hover {
+  transform: scale(1.2);
+
 }
+
 
 /* .github-div {
 display: inline;

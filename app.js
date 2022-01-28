@@ -95,8 +95,12 @@ $('<p>').appendTo('#resume').text('Awards and Honors').addClass('resume-text')
 
 ///projects////
 $('<h2>').appendTo('#projects').text('projects')
+/////LEGEND OF ZELDA////
 $('<div>').appendTo('#projects').addClass('zelda-div')
 $(`<a href = 'https://lilysbotwgame.netlify.app/' target = '/blank' >`).appendTo('.zelda-div').text('The Legend of Zelda Game').addClass('projects-text')
+
+
+
 
 ////gallery////
 $('<h2>').appendTo('#gallery').text('gallery')
@@ -106,21 +110,21 @@ $('<h2>').appendTo('#gallery').text('gallery')
 $('<h2>').appendTo('#links').text('links')
 ///GITHUB////
 $('<div>').appendTo('#links').addClass('github-div')
-$(`<a href = 'https://github.com/herbie2568' target = '/blank'>`).appendTo('.github-div').text('Github').addClass('links-text')
+$(`<a href = 'https://github.com/herbie2568' target = '/blank'>`).appendTo('.github-div').text('github').addClass('links-text')
 // $('<div>').appendTo('.github-div').addClass('github-image-div')
 // $(`<img src ='lilypics/github_icon.png'>`).appendTo('.github-div').addClass('link-images')
 ///LINKEDIN////
 $('<div>').appendTo('#links').addClass('linkedin-div')
-$(`<a href = 'https://www.linkedin.com/in/lilychen910/' target = '/blank'>`).appendTo('.linkedin-div').text('LinkedIn').addClass('links-text')
+$(`<a href = 'https://www.linkedin.com/in/lilychen910/' target = '/blank'>`).appendTo('.linkedin-div').text('linkedin').addClass('links-text')
 ////FACEBOOK////
 $('<div>').appendTo('#links').addClass('facebook-div')
-$(`<a href = 'https://www.facebook.com/lilyp4d/' target = '/blank'>`).appendTo('.facebook-div').text('Facebook').addClass('links-text')
+$(`<a href = 'https://www.facebook.com/lilyp4d/' target = '/blank'>`).appendTo('.facebook-div').text('facebook').addClass('links-text')
 ////INSTAGRAM////
 $('<div>').appendTo('#links').addClass('instagram-div')
-$(`<a href = 'https://www.instagram.com/sugarsmaster/' target = '/blank'>`).appendTo('.instagram-div').text('Instagram').addClass('links-text')
+$(`<a href = 'https://www.instagram.com/sugarsmaster/' target = '/blank'>`).appendTo('.instagram-div').text('instagram').addClass('links-text')
 ////TWITTER////
-$('<div>').appendTo('#links').addClass('twitter-div')
-$(`<a href = 'https://twitter.com/herbie2568' target = '/blank'>`).appendTo('.twitter-div').text('Twitter').addClass('links-text')
+$('<div>').appendTo('#links').addClass('reddit-div')
+$(`<a href = 'https://www.reddit.com/user/herbie2568' target = '/blank'>`).appendTo('.reddit-div').text('reddit').addClass('links-text')
 
 
 
