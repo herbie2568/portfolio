@@ -19,7 +19,7 @@ html {
 body {
   display: flex;
   flex-direction: column;
-  background: black;
+  background: #000000;
   color: white;
 
 }
@@ -62,7 +62,8 @@ p {
   justify-content: right;
   list-style-type: none;
   font-size: 2rem;
-  font-family: 'JosefinSans-Regular';
+  font-family: 'Roboto', sans-serif;
+
   margin: 10%;
   padding: 2%;
 }
@@ -83,7 +84,6 @@ p {
   text-align: right;
   justify-content: right;
 
-
 }
 
 .main-pic {
@@ -91,17 +91,17 @@ p {
   margin-left: 30%;
   margin-top: 10%;
   /* padding: 4%; */
+  border-radius: 10px;
+}
 
+.lilypics-div {
+  border-radius: 10px;
 }
 
 
-.lilypics_div {
-
-
-}
 .imgbar {
   display: flex;
-  flex flow: row wrap;
+  flex-flow: row wrap;
   justify-content: flex-start;
   flex-shrink: 1;
   height: 700px;
@@ -124,6 +124,10 @@ p {
 }
 
 #links {
+  height: 1000px;
+}
+
+#contact {
   height: 1000px;
 }
 
@@ -151,7 +155,7 @@ h2 {
   padding-left: 10%
 }
 
-.about-text, .resume-text, .projects-text, .gallery-text, .links-text {
+.about-text, .resume-text, .projects-text, .gallery-text, .links-text, .contact-text {
   padding-left: 10%;
   padding-right: 30%;
   /* padding-top: 5%; */
@@ -184,6 +188,11 @@ h2 {
 
 }
 
+
+.github-logo {
+  width: 40px;
+  height: 40px;
+}
 
 .link-images img{
   height: 30px;
@@ -243,5 +252,51 @@ h2 {
 
 .carousel-images img:first-of-type {
 	display: block;
+
+}
+
+.contact-div {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 10%;
+  padding: 20px;
+  border-radius: 10px;
+
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 100;
+  font-size: 1.5rem;
+  margin-left: 8%;
+
+}
+input[type=text], input[type=email], input[type=tel], textarea {
+  padding: 15px;
+  border: 1px solid white;
+  border-radius: 5px;
+  box-sizing: border-box;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  resize: vertical;
+}
+input[type=submit] {
+  background-color: #E6CD0F;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+input[type=submit]:hover {
+  background-color: white;
+
+}
+
+
+.skyline-image {
+  width:100%;
+  opacity: 0.3;
 
 }

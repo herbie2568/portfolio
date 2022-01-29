@@ -3,8 +3,7 @@ $(() => {
 ////HEADER/////
 // const $h1 = $('<div>').appendTo
 
-
-
+$('<header>').appendTo('body')
 $('<div>').text('LILY CHEN').appendTo('header').addClass('header').attr('id', 'header-name')
 $('<div>').text('full stack web developer').appendTo('header').addClass('header-description')
 // $('<div>').text('Web Developer | ').appendTo('header').addClass('header').attr('id', 'header-description')
@@ -33,6 +32,8 @@ $('<li>').appendTo('.nav-bar').addClass('nav-list').attr('id', 'gallery-li')
 $('<a href= #gallery>').appendTo('#gallery-li').text('gallery').addClass('nav-anchor')
 $('<li>').appendTo('.nav-bar').addClass('nav-list').attr('id', 'links-li')
 $('<a href= #links>').appendTo('#links-li').text('links').addClass('nav-anchor')
+$('<li>').appendTo('.nav-bar').addClass('nav-list').attr('id', 'contact-li')
+$('<a href= #contact>').appendTo('#contact-li').text('contact').addClass('nav-anchor')
 
 //////SECTIONS//////
 $('<div>').addClass('stuff').appendTo('body')
@@ -41,6 +42,7 @@ $('<section>').attr('id', 'resume').appendTo('.stuff')
 $('<section>').attr('id', 'projects').appendTo('.stuff')
 $('<section>').attr('id', 'gallery').appendTo('.stuff')
 $('<section>').attr('id', 'links').appendTo('.stuff')
+$('<section>').attr('id', 'contact').appendTo('.stuff')
 
 
 
@@ -128,9 +130,12 @@ currentImgIndex = 0
 $('<h2>').appendTo('#links').text('links')
 ///GITHUB////
 $('<div>').appendTo('#links').addClass('github-div')
+
 $(`<a href = 'https://github.com/herbie2568' target = '/blank'>`).appendTo('.github-div').text('github').addClass('links-text')
-// $('<div>').appendTo('.github-div').addClass('github-image-div')
-// $(`<img src ='lilypics/github_icon.png'>`).appendTo('.github-div').addClass('link-images')
+// $(`<img src='lilypics/github_icon.png'>`).appendTo('.github-div').addClass('github-logo')
+
+
+
 ///LINKEDIN////
 $('<div>').appendTo('#links').addClass('linkedin-div')
 $(`<a href = 'https://www.linkedin.com/in/lilychen910/' target = '/blank'>`).appendTo('.linkedin-div').text('linkedin').addClass('links-text')
@@ -144,17 +149,38 @@ $(`<a href = 'https://www.instagram.com/sugarsmaster/' target = '/blank'>`).appe
 $('<div>').appendTo('#links').addClass('reddit-div')
 $(`<a href = 'https://www.reddit.com/user/herbie2568' target = '/blank'>`).appendTo('.reddit-div').text('reddit').addClass('links-text')
 
+////CONTACT////
+$('<h2>').appendTo('#contact').text('contact')
+$('<div>').appendTo('#contact').addClass('contact-div')
+$(`<form action="action_page.php">`).appendTo('.contact-div').addClass('form')
+$(`<label for="fname">`).appendTo('.form').text('First Name')
+$(`<input type="text" id="fname" name="firstname" placeholder="Your first name..">`).appendTo('.form')
+
+$(`<label for="lname">`).appendTo('.form').text('Last Name')
+$(`<input type="text" id="lname" name="lastname" placeholder="Your last name..">`).appendTo('.form')
+
+$(`<label for="email">`).appendTo('.form').text('Email')
+$(`<input type="email" id="email" name="email" placeholder="Your email..">`).appendTo('.form')
+
+$(`<label for="phone">`).appendTo('.form').text('Phone Number')
+$(`<input type="tel" id="phone" name="phone" placeholder= "ex. (888) 888-8888">`).appendTo('.form')
+
+$(`<label for="subject">`).appendTo('.form')
+$(`<textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>`).appendTo('.form')
+
+////CAPTCHA/////
+$(`<div class="g-recaptcha" data-sitekey="6Ldbdg0TAAAAAI7KAf72Q6uagbWzWecTeBWmrCpJ">`).appendTo('.form')
+
+$(`<input type="submit" value="Submit">`).appendTo('.form')
+
 
 /////FOOTER////
 $('<footer>').appendTo('body').addClass('footer')
-
-$('<div>').appendTo('.footer').addClass('footer-div')
-$(`<a href ='#' class= 'fa fa-facebook'>`).appendTo('.footer-div')
-// $('<div>').appendTo('.footer').addClass('footer-div')
-$(`<a href ='#' class= 'fa fa-instagram'>`).appendTo('.footer-div')
+///SKYLINE PIC/////
+$('<div>').appendTo('footer').addClass('skyline-div')
+$(`<img src ='lilypics/skyline-bw.webp'>`).appendTo('.skyline-div').addClass('skyline-image')
 
 
-
-
+$(`<img src='lilypics/github_icon.png'>`).appendTo('.footer').addClass('github-logo')
 
 })
