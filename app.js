@@ -178,22 +178,25 @@ $('<div>').appendTo('footer').addClass('skyline-div')
 $(`<img src ='lilypics/skyline-bw.webp'>`).appendTo('.skyline-div').addClass('skyline-image')
 
 ////GITHUB ICON////
-$(`<img src='lilypics/github_icon.png'>`).appendTo('.skyline-div').addClass('github-logo')
-$(`<a href = 'https://github.com/herbie2568' target = '/blank'>`).appendTo('.github-logo')
 
-
+$(`<a href = 'https://github.com/herbie2568' target = '/blank'>`).addClass('github-logo').appendTo('.skyline-div')
+$(`<img src='lilypics/github-logo-color.png'>`).appendTo('.github-logo').addClass('github-image')
 
 ////LINKEDIN LOGO///
-$(`<img src='lilypics/linkedin_logo.png'>`).appendTo('.skyline-div').addClass('linkedin-logo')
+$(`<a href = 'https://www.linkedin.com/in/lilychen910/' target = '/blank'>`).addClass('linkedin-logo').appendTo('.skyline-div')
+$(`<img src='lilypics/linkedin-logo-color.png'>`).appendTo('.linkedin-logo').addClass('linkedin-image')
 
 ////REDDIT LOGO///
-$(`<img src='lilypics/reddit_logo.png'>`).appendTo('.skyline-div').addClass('reddit-logo')
+$(`<a href = 'https://www.reddit.com/user/herbie2568' target = '/blank'>`).addClass('reddit-logo').appendTo('.skyline-div')
+$(`<img src='lilypics/reddit-logo-color.png'>`).appendTo('.reddit-logo').addClass('reddit-image')
 
 ////FACEBOOK LOGO///
-$(`<img src='lilypics/facebook-logo.png'>`).appendTo('.skyline-div').addClass('facebook-logo')
+$(`<a href = 'https://www.facebook.com/lilyp4d/' target = '/blank'>`).addClass('facebook-logo').appendTo('.skyline-div')
+$(`<img src='lilypics/facebook-logo-color.png'>`).appendTo('.facebook-logo').addClass('facebook-image')
 
 ////INSTAGRAM LOGO///
-$(`<img src='lilypics/instagram_logo.png'>`).appendTo('.skyline-div').addClass('instagram-logo')
+$(`<a href = 'https://www.instagram.com/sugarsmaster/' target = '/blank'>`).addClass('instagram-logo').appendTo('.skyline-div')
+$(`<img src='lilypics/instagram-logo-color.webp'>`).appendTo('.instagram-logo').addClass('instagram-image')
 
 ////COLOR ICONS////
 ////GITHUB ICON////

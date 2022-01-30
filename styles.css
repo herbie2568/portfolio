@@ -15,7 +15,6 @@ html {
   src: url(josefin-sans/josefinsans-regular.ttf);
 }
 
-
 body {
   display: flex;
   flex-direction: column;
@@ -255,18 +254,19 @@ h2 {
 
 }
 input[type=text], input[type=email], input[type=tel], textarea {
-  padding: 15px;
+  padding: 10px;
   border: 1px solid white;
   border-radius: 5px;
   box-sizing: border-box;
   margin-top: 10px;
   margin-bottom: 10px;
   resize: vertical;
+  font-family: 'Montserrat', sans-serif;
 }
 input[type=submit] {
   background-color: #E6CD0F;
   padding: 10px;
-  border-radius: 5px;
+  border-radius: 10px;
   cursor: pointer;
 }
 input[type=submit]:hover {
@@ -274,48 +274,68 @@ input[type=submit]:hover {
 
 }
 
-
 .skyline-image {
   width:100%;
   opacity: 0.3;
 
 }
-.github-logo {
+.github-image {
   position: fixed;
-  left: 10px;
-  bottom: 210px;
-  width: 30px;
-  height: 30px;
+  left: 8px;
+  bottom: 205px;
+  width: 35px;
+  height: 35px;
+}
+.github-image:hover {
+  cursor: pointer;
+  transform: scale(1.2)
+
 }
 
-.linkedin-logo {
+.linkedin-image {
   position: fixed;
   left: 10px;
   bottom: 160px;
   width: 30px;
   height: 30px;
 }
+.linkedin-image:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+}
 
-.reddit-logo {
+.reddit-image {
   width: 30px;
   height: 30px;
   left: 10px;
   bottom: 10px;
   position: fixed;
 }
+.reddit-image:hover {
+  cursor: pointer;
+  transform: scale(1.2)
+}
 
-.facebook-logo {
+.facebook-image {
   width: 30px;
   height: 30px;
   left: 10px;
   bottom: 110px;
   position: fixed;
 }
+.facebook-image:hover {
+  cursor: pointer;
+  transform: scale(1.2)
+}
 
-.instagram-logo {
+.instagram-image {
   width: 30px;
   height: 30px;
   left: 10px;
   bottom: 60px;
   position: fixed;
+}
+.instagram-image:hover {
+  cursor: pointer;
+  transform: scale(1.2)
 }
