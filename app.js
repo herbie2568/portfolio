@@ -165,11 +165,8 @@ $(`<input type="email" id="email" name="email" placeholder="Your email..">`).app
 $(`<label for="phone">`).appendTo('.form').text('Phone Number')
 $(`<input type="tel" id="phone" name="phone" placeholder= "ex. (888) 888-8888">`).appendTo('.form')
 
-$(`<label for="subject">`).appendTo('.form')
+$(`<label for="subject">`).appendTo('.form').text('Message')
 $(`<textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>`).appendTo('.form')
-
-////CAPTCHA/////
-$(`<div class="g-recaptcha" data-sitekey="6Ldbdg0TAAAAAI7KAf72Q6uagbWzWecTeBWmrCpJ">`).appendTo('.form')
 
 $(`<input type="submit" value="Submit">`).appendTo('.form')
 
@@ -180,7 +177,39 @@ $('<footer>').appendTo('body').addClass('footer')
 $('<div>').appendTo('footer').addClass('skyline-div')
 $(`<img src ='lilypics/skyline-bw.webp'>`).appendTo('.skyline-div').addClass('skyline-image')
 
+////GITHUB ICON////
+$(`<img src='lilypics/github_icon.png'>`).appendTo('.skyline-div').addClass('github-logo')
+$(`<a href = 'https://github.com/herbie2568' target = '/blank'>`).appendTo('.github-logo')
 
-$(`<img src='lilypics/github_icon.png'>`).appendTo('.footer').addClass('github-logo')
+
+
+////LINKEDIN LOGO///
+$(`<img src='lilypics/linkedin_logo.png'>`).appendTo('.skyline-div').addClass('linkedin-logo')
+
+////REDDIT LOGO///
+$(`<img src='lilypics/reddit_logo.png'>`).appendTo('.skyline-div').addClass('reddit-logo')
+
+////FACEBOOK LOGO///
+$(`<img src='lilypics/facebook-logo.png'>`).appendTo('.skyline-div').addClass('facebook-logo')
+
+////INSTAGRAM LOGO///
+$(`<img src='lilypics/instagram_logo.png'>`).appendTo('.skyline-div').addClass('instagram-logo')
+
+////COLOR ICONS////
+////GITHUB ICON////
+// $(`<img src='lilypics/github-logo-color.png'>`).appendTo('.skyline-div').addClass('github-logo')
+//
+// ////LINKEDIN LOGO///
+// $(`<img src='lilypics/linkedin-logo-color.png'>`).appendTo('.skyline-div').addClass('linkedin-logo')
+//
+// ////REDDIT LOGO///
+// $(`<img src='lilypics/reddit-logo-color.png'>`).appendTo('.skyline-div').addClass('reddit-logo')
+//
+// ////FACEBOOK LOGO///
+// $(`<img src='lilypics/facebook-logo-color.png'>`).appendTo('.skyline-div').addClass('facebook-logo')
+//
+// ////INSTAGRAM LOGO///
+// $(`<img src='lilypics/instagram-logo-color.webp'>`).appendTo('.skyline-div').addClass('instagram-logo')
+
 
 })

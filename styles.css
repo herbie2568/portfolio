@@ -24,7 +24,6 @@ body {
 
 }
 
-
 header {
   padding-top: 7%;
   padding-left: 8%;
@@ -56,7 +55,6 @@ p {
 
 }
 
-
 .nav-list {
   display:flex;
   justify-content: right;
@@ -78,6 +76,16 @@ p {
   position: fixed;
   /* margin-right: 5%; */
 
+}
+
+.nav-anchor {
+  text-decoration: none;
+    color:white;
+}
+
+.nav-anchor:hover {
+
+color: lightgrey;
 }
 
 .navbar-div {
@@ -128,12 +136,7 @@ p {
 }
 
 #contact {
-  height: 1000px;
-}
-
-.nav-anchor {
-  text-decoration: none;
-  color: lightgrey;
+  height: 900px;
 }
 
 .previous img, .next img {
@@ -188,30 +191,11 @@ h2 {
 
 }
 
-
-.github-logo {
-  width: 40px;
-  height: 40px;
-}
-
 .link-images img{
   height: 30px;
   width: 30px;
 }
 
-.fa {
-  /* padding: 20px;
-  font-size: 30px; */
-  width: 20px;
-  text-align: center;
-  text-decoration: none;
-
-}
-
-.fa-facebook {
-  background: #3B5998;
-  color: white;
-}
 
 .carousel-container {
   display: flex;
@@ -240,19 +224,15 @@ h2 {
 	/* color: #888; */
 	padding: 10px;
 	border-radius: 50%;
-
 	text-align: center;
-	/* box-shadow: 1.5px 1.5px white; */
 }
 
 .carousel-button:hover {
 	cursor: pointer;
-
 }
 
 .carousel-images img:first-of-type {
 	display: block;
-
 }
 
 .contact-div {
@@ -299,4 +279,43 @@ input[type=submit]:hover {
   width:100%;
   opacity: 0.3;
 
+}
+.github-logo {
+  position: fixed;
+  left: 10px;
+  bottom: 210px;
+  width: 30px;
+  height: 30px;
+}
+
+.linkedin-logo {
+  position: fixed;
+  left: 10px;
+  bottom: 160px;
+  width: 30px;
+  height: 30px;
+}
+
+.reddit-logo {
+  width: 30px;
+  height: 30px;
+  left: 10px;
+  bottom: 10px;
+  position: fixed;
+}
+
+.facebook-logo {
+  width: 30px;
+  height: 30px;
+  left: 10px;
+  bottom: 110px;
+  position: fixed;
+}
+
+.instagram-logo {
+  width: 30px;
+  height: 30px;
+  left: 10px;
+  bottom: 60px;
+  position: fixed;
 }
