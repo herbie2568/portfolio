@@ -56,7 +56,7 @@ $('<section>').attr('id', 'contact').appendTo('.stuff')
 $('<h2>').appendTo('#about').text('about')
 $('<div>').appendTo('#about').addClass('about-div')
 $(`<img src ='lilypics/IMG_3661.jpeg'>`).appendTo('.about-div').addClass('about-pic')
-$('<p>').appendTo('.about-div').text('Hi, I\'m Lily! I\'m a software engineer based in Brooklyn, NY. I enjoy doing both front end and back end web development. You can usually find me biking, swimming, playing the piano/cello, solving Rubik\'s cubes, playing video games, or walking my dog Roxie. I\'m also a bit of a Jeopardy nerd and do watch it religiously. I love learning new things and am constantly honing my current skills. Feel free to check out my website to see all my random stuff!').addClass('about-text')
+$('<p>').appendTo('.about-div').text('Hi, I\'m Lily! I\'m a software engineer based in Brooklyn, NY. I enjoy doing both front end and back end web development. You can usually find me biking, swimming, playing the piano/cello, solving Rubik\'s cubes (check the gallery to see my collection!), playing video games, or walking my dog Roxie. I\'m also a bit of a Jeopardy nerd and do watch it religiously. I love learning new things and am constantly honing my current skills. Feel free to check out my website to see all my random stuff!').addClass('about-text')
 
 
 
@@ -124,34 +124,28 @@ $(`<img src ='cubes/IMG_1041.jpeg'>`).appendTo('.carousel-images')
 $(`<img src ='cubes/IMG_1042.jpeg'>`).appendTo('.carousel-images')
 //mirror//
 $(`<img src ='cubes/IMG_1043.jpeg'>`).appendTo('.carousel-images')
-//7x7//
+//square1//
 $(`<img src ='cubes/IMG_1044.jpeg'>`).appendTo('.carousel-images')
-//7x7//
+//2x2//
 $(`<img src ='cubes/IMG_1045.jpeg'>`).appendTo('.carousel-images')
-//7x7//
+//centersquare//
 $(`<img src ='cubes/IMG_1046.jpeg'>`).appendTo('.carousel-images')
-//7x7//
+//lego//
 $(`<img src ='cubes/IMG_1047.jpeg'>`).appendTo('.carousel-images')
-//7x7//
+//weird 3x3//
 $(`<img src ='cubes/IMG_1048.jpeg'>`).appendTo('.carousel-images')
-//7x7//
+//3x3x5//
 $(`<img src ='cubes/IMG_1049.jpeg'>`).appendTo('.carousel-images')
-//7x7//
+//megaminx//
 $(`<img src ='cubes/IMG_1050.jpeg'>`).appendTo('.carousel-images')
-//7x7//
+//clear 3x3//
 $(`<img src ='cubes/IMG_1051.jpeg'>`).appendTo('.carousel-images')
-//7x7//
+//void//
 $(`<img src ='cubes/IMG_1052.jpeg'>`).appendTo('.carousel-images')
-//7x7//
+//3x3 mini//
 $(`<img src ='cubes/IMG_1053.jpeg'>`).appendTo('.carousel-images')
-//7x7//
+//6x6//
 $(`<img src ='cubes/IMG_1054.jpeg'>`).appendTo('.carousel-images')
-//7x7//
-$(`<img src ='cubes/IMG_1055.jpeg'>`).appendTo('.carousel-images')
-
-
-
-
 
 
 /////next arrow////
