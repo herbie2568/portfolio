@@ -5,7 +5,7 @@ $(() => {
 
 $('<header>').appendTo('body')
 $('<div>').text('LILY CHEN').appendTo('header').addClass('header').attr('id', 'header-name')
-$('<div>').text('full stack web developer').appendTo('header').addClass('header-description')
+$('<div>').text('full   stack   web   developer').appendTo('header').addClass('header-description')
 // $('<div>').text('Web Developer | ').appendTo('header').addClass('header').attr('id', 'header-description')
 
 /////MAIN IMAGE/////
@@ -14,7 +14,7 @@ const $imgBar = $('<div>').appendTo('body').addClass('imgbar')
 $('<div>').appendTo($imgBar).addClass('lilypics-div')
 
 ///central park pic//
-$(`<img src ='lilypics/IMG_3661.jpeg'>`).appendTo('.lilypics-div').addClass('main-pic')
+$(`<img src ='lilypics/IMG_0314.jpeg'>`).appendTo('.lilypics-div').addClass('main-pic')
 
 
 ////NAV BAR/////
@@ -48,15 +48,27 @@ $('<section>').attr('id', 'contact').appendTo('.stuff')
 
 //////about///////
 $('<h2>').appendTo('#about').text('about')
-$('<p>').appendTo('#about').text('Hi, I\'m Lily! I\'m a software engineer based in Brooklyn, NY. I enjoy doing front end and back end development. You will usually find me biking, swimming, playing the piano/cello, solving Rubik\'s cubes, or walking my dog Roxie. I\'m also a bit of a Jeopardy nerd and do watch it religiously. I love learning new things and am constantly honing my current skills. Feel free to check out my random stuff in the links!').addClass('about-text')
+$('<div>').appendTo('#about').addClass('about-div')
+$(`<img src ='lilypics/IMG_3661.jpeg'>`).appendTo('.about-div').addClass('about-pic')
+$('<p>').appendTo('.about-div').text('Hi, I\'m Lily! I\'m a software engineer based in Brooklyn, NY. I enjoy doing both front end and back end web development. You can usually find me biking, swimming, playing the piano/cello, solving Rubik\'s cubes, playing video games, or walking my dog Roxie. I\'m also a bit of a Jeopardy nerd and do watch it religiously. I love learning new things and am constantly honing my current skills. Feel free to check out my website to see all my random stuff!').addClass('about-text')
+
+
 
 
 ////resume//////
 $('<h2>').appendTo('#resume').text('resume')
+////EXPERIENCE////
 $('<p>').appendTo('#resume').text('Experience').addClass('resume-text')
+$('<p>').appendTo('#resume').text('Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus urna nisl, euismod eget turpis pellentesque, pellentesque iaculis lorem. Vestibulum sit amet est convallis, mollis eros at, placerat ipsum.').addClass('resume-subtext')
+////EDUCATION////
 $('<p>').appendTo('#resume').text('Education').addClass('resume-text')
+$('<p>').appendTo('#resume').text('Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus urna nisl, euismod eget turpis pellentesque, pellentesque iaculis lorem. Vestibulum sit amet est convallis, mollis eros at, placerat ipsum.').addClass('resume-subtext')
+////SKILLS/////
 $('<p>').appendTo('#resume').text('Skills').addClass('resume-text')
+$('<p>').appendTo('#resume').text('Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus urna nisl, euismod eget turpis pellentesque, pellentesque iaculis lorem. Vestibulum sit amet est convallis, mollis eros at, placerat ipsum.').addClass('resume-subtext')
+////AWARDS AND HONORS////
 $('<p>').appendTo('#resume').text('Awards and Honors').addClass('resume-text')
+$('<p>').appendTo('#resume').text('Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus urna nisl, euismod eget turpis pellentesque, pellentesque iaculis lorem. Vestibulum sit amet est convallis, mollis eros at, placerat ipsum.').addClass('resume-subtext')
 
 
 ///projects////
@@ -65,6 +77,13 @@ $('<h2>').appendTo('#projects').text('projects')
 $('<div>').appendTo('#projects').addClass('zelda-div')
 $(`<a href = 'https://lilysbotwgame.netlify.app/' target = '/blank' >`).appendTo('.zelda-div').text('The Legend of Zelda Game').addClass('projects-text')
 
+/////DUMMY LINK/////
+$('<div>').appendTo('#projects').addClass('fakeone-div')
+$(`<a href = 'https://lilysbotwgame.netlify.app/' target = '/blank' >`).appendTo('.fakeone-div').text('Fake Project Two').addClass('projects-text')
+
+/////DUMMY LINK 2/////
+$('<div>').appendTo('#projects').addClass('faketwo-div')
+$(`<a href = 'https://lilysbotwgame.netlify.app/' target = '/blank' >`).appendTo('.faketwo-div').text('Fake Project Three').addClass('projects-text')
 
 
 
@@ -152,7 +171,7 @@ $(`<a href = 'https://www.reddit.com/user/herbie2568' target = '/blank'>`).appen
 ////CONTACT////
 $('<h2>').appendTo('#contact').text('contact')
 $('<div>').appendTo('#contact').addClass('contact-div')
-$(`<form action="action_page.php">`).appendTo('.contact-div').addClass('form')
+$(`<form action="action_page.php" target = '/blank'>`).appendTo('.contact-div').addClass('form')
 $(`<label for="fname">`).appendTo('.form').text('First Name')
 $(`<input type="text" id="fname" name="firstname" placeholder="Your first name..">`).appendTo('.form')
 

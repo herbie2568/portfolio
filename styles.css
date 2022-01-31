@@ -20,7 +20,6 @@ body {
   flex-direction: column;
   background: #000000;
   color: white;
-
 }
 
 header {
@@ -58,9 +57,8 @@ p {
   display:flex;
   justify-content: right;
   list-style-type: none;
-  font-size: 2rem;
+  font-size: min(3vw, 48px);
   font-family: 'Roboto', sans-serif;
-
   margin: 10%;
   padding: 2%;
 }
@@ -94,11 +92,11 @@ color: lightgrey;
 }
 
 .main-pic {
-  max-width: 400px;
-  margin-left: 30%;
+  width: min(60vw, 800px);
+  margin-left: 15%;
   margin-top: 10%;
-  /* padding: 4%; */
   border-radius: 10px;
+  border: 1px solid white;
 }
 
 .lilypics-div {
@@ -116,26 +114,27 @@ color: lightgrey;
 }
 
 #about {
-  height: 1000px;
+  height: 100vh;
+  /* display: inline-block; */
 }
 
 #resume {
-  height: 1000px;
+  height: 100vh;
 }
 #projects {
-  height: 1000px;
+  height: 100vh;
 }
 
 #gallery {
-  height: 1000px;
+  height: 110vh;
 }
 
 #links {
-  height: 1000px;
+  height: 100vh;
 }
 
 #contact {
-  height: 900px;
+  height: 100vh;
 }
 
 .previous img, .next img {
@@ -157,7 +156,7 @@ h2 {
   padding-left: 10%
 }
 
-.about-text, .resume-text, .projects-text, .gallery-text, .links-text, .contact-text {
+.about-text, .projects-text, .gallery-text, .links-text, .contact-text {
   padding-left: 10%;
   padding-right: 30%;
   /* padding-top: 5%; */
@@ -167,7 +166,24 @@ h2 {
   color: lightgrey;
 }
 
-.projects-text, .links-text, .resume-text {
+.about-text {
+  font-size: 3vh;
+  /* display: inline-block; */
+  /* text-align: justify; */
+}
+
+.about-pic {
+  width: min(300px, 25vw);
+  float: right;
+  margin-right: 30%;
+  margin-left: 3%;
+  margin-bottom: 0.5%;
+  border-radius: 10px;
+  border: 1px solid white;
+
+}
+
+.projects-text, .links-text {
   font-size: 36px;
   font-family: 'Montserrat', sans-serif;
   font-weight: 100;
@@ -176,16 +192,33 @@ h2 {
   color: lightgrey;
 }
 
+.resume-text {
+  font-size: 30px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  padding-left: 10%;
+  text-decoration: none;
+  color: white;
+  margin: 0 auto;
+}
+.resume-subtext {
+  font-size: 20px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 100;
+  padding-left: 10%;
+  padding-right: 30%;
+}
+
 .zelda-div, .github-div {
-  margin-top: 20%;
+  margin-top: 10vh;
   margin-bottom: 3%;
 }
 
-.linkedin-div, .facebook-div, .instagram-div {
+.linkedin-div, .facebook-div, .instagram-div, .fakeone-div, .faketwo-div {
   margin-bottom: 3%;
 }
 
-.zelda-div:hover, .github-div:hover, .linkedin-div:hover, .facebook-div:hover, .instagram-div:hover, .reddit-div:hover {
+.zelda-div:hover, .github-div:hover, .linkedin-div:hover, .facebook-div:hover, .instagram-div:hover, .reddit-div:hover, .fakeone-div:hover, .faketwo-div:hover {
   transform: scale(1.2);
 
 }
@@ -198,22 +231,50 @@ h2 {
 
 .carousel-container {
   display: flex;
-  justify-content: flex-start;
+  justify-content: flex-center;
   padding-left: 10%;
-  padding-top: 10%;
+  padding-top: 5vh;
 
 }
 
 .carousel-images {
-  width: 50%;
+  width: max(30vw, 400px);
 
 }
 
 .carousel-images img{
-  width: min(100%, 500px);
+  width: max(30vw, 400px);
   border-radius: 10px;
   display: none;
   /* border: 1px solid white; */
+
+}
+
+@media only screen and (max-width: 600px) {
+  .carousel-images {
+    width: 250px;
+  }
+  .carousel-images img{
+    width: 250px;
+  }
+  .form {
+    width: 300px;
+  }
+  .contact-div {
+    width: 300px;
+  }
+  .about-text {
+    font-size: 20px;
+  }
+  #resume {
+    height: 160vh;
+  }
+  .resume-text {
+    font-size: 24px;
+  }
+  .resume-subtext {
+    font-size: 16px;
+  }
 
 }
 
@@ -237,7 +298,7 @@ h2 {
 .contact-div {
   display: flex;
   justify-content: flex-start;
-  margin-top: 10%;
+  margin-top: 10vh;
   padding: 20px;
   border-radius: 10px;
 
@@ -246,11 +307,11 @@ h2 {
 .form {
   display: flex;
   flex-direction: column;
-  width: 500px;
+  width: 400px;
   font-family: 'Montserrat', sans-serif;
   font-weight: 100;
   font-size: 1.5rem;
-  margin-left: 8%;
+  margin-left: 10vw;
 
 }
 input[type=text], input[type=email], input[type=tel], textarea {
