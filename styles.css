@@ -84,7 +84,7 @@
 
   }
   .about-text {
-    font-size: 20px;
+    font-size: 22px;
     padding-left: 10%;
     padding-right: 10%;
     font-family: 'Montserrat', sans-serif;
@@ -99,6 +99,41 @@
     margin-left: 3%;
     border-radius: 10px;
     border: 1px solid white;
+  }
+  .resume-text {
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    padding-left: 10%;
+    text-decoration: none;
+    color: white;
+
+  }
+  .resume-subtext {
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 4%;
+  }
+
+  .projects-text, .links-text {
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+    padding-left: 10%;
+    text-decoration: none;
+    color: lightgrey;
+  }
+
+  .zelda-div, .github-div {
+    margin-top: 10vh;
+    margin-bottom: 10%;
+  }
+
+  .linkedin-div, .facebook-div, .instagram-div, .fakeone-div, .faketwo-div {
+    margin-bottom: 10%;
   }
 
   .carousel-images {
@@ -129,6 +164,9 @@
     padding-top: 5vh;
   }
 
+  #gallery {
+    height: 90vh;
+  }
   .carousel-images {
     width: max(15vw, 250px);
   }
@@ -155,6 +193,42 @@
 
   .carousel-images img:first-of-type {
   	display: block;
+  }
+  .github-image {
+    position: fixed;
+    left: 5px;
+    bottom: 8px;
+    width: 35px;
+    height: 35px;
+  }
+  .linkedin-image {
+    position: fixed;
+    left: 50px;
+    bottom: 10px;
+    width: 30px;
+    height: 30px;
+  }
+
+  .facebook-image {
+    width: 30px;
+    height: 30px;
+    left: 95px;
+    bottom: 10px;
+    position: fixed;
+  }
+  .instagram-image {
+    width: 30px;
+    height: 30px;
+    left: 140px;
+    bottom: 10px;
+    position: fixed;
+  }
+  .reddit-image {
+    width: 30px;
+    height: 30px;
+    left: 182px;
+    bottom: 10px;
+    position: fixed;
   }
 }
 
@@ -189,7 +263,7 @@
     display:flex;
     justify-content: right;
     list-style-type: none;
-    font-size: min(3vw, 48px);
+    font-size: min(3vw, 36px);
     font-family: 'Roboto', sans-serif;
     margin: 10%;
     padding: 2%;
@@ -265,6 +339,44 @@
 
   }
 
+  .resume-text {
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    padding-left: 10%;
+    text-decoration: none;
+    color: white;
+    margin: 0 auto;
+  }
+  .resume-subtext {
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+    padding-left: 10%;
+    padding-right: 30%;
+  }
+
+  .projects-text, .links-text {
+    font-size: 36px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+    padding-left: 10%;
+    text-decoration: none;
+    color: lightgrey;
+  }
+
+  .zelda-div, .github-div {
+    margin-top: 10vh;
+    margin-bottom: 3%;
+  }
+
+  .linkedin-div, .facebook-div, .instagram-div, .fakeone-div, .faketwo-div {
+    margin-bottom: 3%;
+  }
+
+  #gallery {
+    height: 110vh;
+  }
   .carousel-container {
     display: flex;
     justify-content: flex-start;
@@ -274,12 +386,12 @@
   }
 
   .carousel-images {
-    width: max(30vw, 400px);
+    width: max(25vw, 400px);
 
   }
 
   .carousel-images img{
-    width: max(30vw, 400px);
+    width: max(25vw, 400px);
     border-radius: 10px;
     display: none;
     /* border: 1px solid white; */
@@ -302,6 +414,67 @@
   .carousel-images img:first-of-type {
   	display: block;
   }
+  .github-image {
+    position: fixed;
+    left: 8px;
+    bottom: 205px;
+    width: 35px;
+    height: 35px;
+  }
+  .github-image:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+
+  }
+
+  .linkedin-image {
+    position: fixed;
+    left: 10px;
+    bottom: 160px;
+    width: 30px;
+    height: 30px;
+  }
+  .linkedin-image:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+  }
+
+  .reddit-image {
+    width: 30px;
+    height: 30px;
+    left: 10px;
+    bottom: 10px;
+    position: fixed;
+  }
+  .reddit-image:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+  }
+
+  .facebook-image {
+    width: 30px;
+    height: 30px;
+    left: 10px;
+    bottom: 110px;
+    position: fixed;
+  }
+  .facebook-image:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+  }
+
+  .instagram-image {
+    width: 30px;
+    height: 30px;
+    left: 10px;
+    bottom: 60px;
+    position: fixed;
+  }
+  .instagram-image:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+  }
+
 
 }
 html {
@@ -344,10 +517,6 @@ p {
   height: 100vh;
 }
 
-#gallery {
-  height: 110vh;
-}
-
 #links {
   height: 100vh;
 }
@@ -367,44 +536,6 @@ p {
 
 .next img:hover {
   transform: scale(2)
-}
-
-
-
-
-.projects-text, .links-text {
-  font-size: 36px;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 100;
-  padding-left: 10%;
-  text-decoration: none;
-  color: lightgrey;
-}
-
-.resume-text {
-  font-size: 30px;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 300;
-  padding-left: 10%;
-  text-decoration: none;
-  color: white;
-  margin: 0 auto;
-}
-.resume-subtext {
-  font-size: 20px;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 100;
-  padding-left: 10%;
-  padding-right: 30%;
-}
-
-.zelda-div, .github-div {
-  margin-top: 10vh;
-  margin-bottom: 3%;
-}
-
-.linkedin-div, .facebook-div, .instagram-div, .fakeone-div, .faketwo-div {
-  margin-bottom: 3%;
 }
 
 .zelda-div:hover, .github-div:hover, .linkedin-div:hover, .facebook-div:hover, .instagram-div:hover, .reddit-div:hover, .fakeone-div:hover, .faketwo-div:hover {
@@ -467,64 +598,4 @@ input[type=submit]:hover {
   width:100%;
   opacity: 0.3;
 
-}
-.github-image {
-  position: fixed;
-  left: 8px;
-  bottom: 205px;
-  width: 35px;
-  height: 35px;
-}
-.github-image:hover {
-  cursor: pointer;
-  transform: scale(1.2);
-
-}
-
-.linkedin-image {
-  position: fixed;
-  left: 10px;
-  bottom: 160px;
-  width: 30px;
-  height: 30px;
-}
-.linkedin-image:hover {
-  cursor: pointer;
-  transform: scale(1.2);
-}
-
-.reddit-image {
-  width: 30px;
-  height: 30px;
-  left: 10px;
-  bottom: 10px;
-  position: fixed;
-}
-.reddit-image:hover {
-  cursor: pointer;
-  transform: scale(1.2);
-}
-
-.facebook-image {
-  width: 30px;
-  height: 30px;
-  left: 10px;
-  bottom: 110px;
-  position: fixed;
-}
-.facebook-image:hover {
-  cursor: pointer;
-  transform: scale(1.2);
-}
-
-.instagram-image {
-  width: 30px;
-  height: 30px;
-  left: 10px;
-  bottom: 60px;
-  position: fixed;
-}
-.instagram-image:hover {
-  cursor: pointer;
-  transform: scale(1.2);
 }
