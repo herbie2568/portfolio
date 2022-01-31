@@ -1,11 +1,38 @@
 /* * {
   border: 1px solid white;
 } */
-@media screen and (max-width: 800px) {
-  body {
-    font-size: 20px;
+
+@media (max-width: 600px) {
+  .header-name {
+    font-size: 30px;
   }
+  .carousel-images {
+    width: 200px;
+  }
+  .carousel-images img{
+    width: 200px;
+  }
+  .form {
+    width: 300px;
+  }
+  .contact-div {
+    width: 300px;
+  }
+  .about-text {
+    font-size: 16px;
+  }
+  #resume {
+    height: 1500px;
+  }
+  .resume-text {
+    font-size: 24px;
+  }
+  .resume-subtext {
+    font-size: 16px;
+  }
+
 }
+
 html {
   scroll-behavior: smooth;
 }
@@ -65,7 +92,7 @@ p {
 
 .nav-list:hover {
   cursor: pointer;
-  transform: scale(1.5)
+  transform: scale(1.5);
 }
 
 .nav-bar {
@@ -153,7 +180,7 @@ color: lightgrey;
 h2 {
   font-size: 52px;
   font-family: 'JosefinSans-Regular';
-  padding-left: 10%
+  padding-left: 10%;
 }
 
 .about-text, .projects-text, .gallery-text, .links-text, .contact-text {
@@ -231,7 +258,7 @@ h2 {
 
 .carousel-container {
   display: flex;
-  justify-content: flex-center;
+  justify-content: flex-start;
   padding-left: 10%;
   padding-top: 5vh;
 
@@ -250,33 +277,7 @@ h2 {
 
 }
 
-@media only screen and (max-width: 600px) {
-  .carousel-images {
-    width: 250px;
-  }
-  .carousel-images img{
-    width: 250px;
-  }
-  .form {
-    width: 300px;
-  }
-  .contact-div {
-    width: 300px;
-  }
-  .about-text {
-    font-size: 20px;
-  }
-  #resume {
-    height: 160vh;
-  }
-  .resume-text {
-    font-size: 24px;
-  }
-  .resume-subtext {
-    font-size: 16px;
-  }
 
-}
 
 .carousel-button {
 	align-self: center;
@@ -329,9 +330,13 @@ input[type=submit] {
   padding: 10px;
   border-radius: 10px;
   cursor: pointer;
+  font-family: 'Montserrat', sans-serif;
+
 }
 input[type=submit]:hover {
   background-color: white;
+  font-family: 'Montserrat', sans-serif;
+  transform: scale(1.1)
 
 }
 
@@ -349,7 +354,7 @@ input[type=submit]:hover {
 }
 .github-image:hover {
   cursor: pointer;
-  transform: scale(1.2)
+  transform: scale(1.2);
 
 }
 
@@ -374,7 +379,7 @@ input[type=submit]:hover {
 }
 .reddit-image:hover {
   cursor: pointer;
-  transform: scale(1.2)
+  transform: scale(1.2);
 }
 
 .facebook-image {
@@ -386,7 +391,7 @@ input[type=submit]:hover {
 }
 .facebook-image:hover {
   cursor: pointer;
-  transform: scale(1.2)
+  transform: scale(1.2);
 }
 
 .instagram-image {
@@ -398,5 +403,5 @@ input[type=submit]:hover {
 }
 .instagram-image:hover {
   cursor: pointer;
-  transform: scale(1.2)
+  transform: scale(1.2);
 }

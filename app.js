@@ -3,7 +3,7 @@ $(() => {
 ////HEADER/////
 // const $h1 = $('<div>').appendTo
 
-$('<header>').appendTo('body')
+$('<header>').appendTo('body').attr('id', 'header')
 $('<div>').text('LILY CHEN').appendTo('header').addClass('header').attr('id', 'header-name')
 $('<div>').text('full   stack   web   developer').appendTo('header').addClass('header-description')
 // $('<div>').text('Web Developer | ').appendTo('header').addClass('header').attr('id', 'header-description')
@@ -21,27 +21,33 @@ $(`<img src ='lilypics/IMG_0314.jpeg'>`).appendTo('.lilypics-div').addClass('mai
 const $navBar = $('<div>').addClass('navbar-div').appendTo('.imgbar')
 $('<ul>').appendTo($navBar).addClass('nav-bar')
 $('<li>').appendTo('.nav-bar').addClass('nav-list').attr('id', 'home-li')
-$('<a href= #header-name>').appendTo('#home-li').text('home').addClass('nav-anchor')
+$('<a href= #header>').appendTo('#home-li').text('home').addClass('nav-anchor')
 $('<li>').appendTo('.nav-bar').addClass('nav-list').attr('id', 'about-li')
-$('<a href= #about>').appendTo('#about-li').text('about').addClass('nav-anchor')
+$('<a href= #homeabout-div>').appendTo('#about-li').text('about').addClass('nav-anchor')
 $('<li>').appendTo('.nav-bar').addClass('nav-list').attr('id', 'resume-li')
-$('<a href= #resume>').appendTo('#resume-li').text('resume').addClass('nav-anchor')
+$('<a href= #aboutresume-div>').appendTo('#resume-li').text('resume').addClass('nav-anchor')
 $('<li>').appendTo('.nav-bar').addClass('nav-list').attr('id', 'projects-li')
-$('<a href= #projects>').appendTo('#projects-li').text('projects').addClass('nav-anchor')
+$('<a href= #resumeprojects-div>').appendTo('#projects-li').text('projects').addClass('nav-anchor')
 $('<li>').appendTo('.nav-bar').addClass('nav-list').attr('id', 'gallery-li')
-$('<a href= #gallery>').appendTo('#gallery-li').text('gallery').addClass('nav-anchor')
+$('<a href= #projectsgallery-div>').appendTo('#gallery-li').text('gallery').addClass('nav-anchor')
 $('<li>').appendTo('.nav-bar').addClass('nav-list').attr('id', 'links-li')
-$('<a href= #links>').appendTo('#links-li').text('links').addClass('nav-anchor')
+$('<a href= #gallerylinks-div>').appendTo('#links-li').text('links').addClass('nav-anchor')
 $('<li>').appendTo('.nav-bar').addClass('nav-list').attr('id', 'contact-li')
-$('<a href= #contact>').appendTo('#contact-li').text('contact').addClass('nav-anchor')
+$('<a href= #linkscontact-div>').appendTo('#contact-li').text('contact').addClass('nav-anchor')
 
 //////SECTIONS//////
 $('<div>').addClass('stuff').appendTo('body')
+$('<div>').appendTo('.stuff').attr('id', 'homeabout-div')
 $('<section>').attr('id', 'about').appendTo('.stuff')
+$('<div>').appendTo('.stuff').attr('id', 'aboutresume-div')
 $('<section>').attr('id', 'resume').appendTo('.stuff')
+$('<div>').appendTo('.stuff').attr('id', 'resumeprojects-div')
 $('<section>').attr('id', 'projects').appendTo('.stuff')
+$('<div>').appendTo('.stuff').attr('id', 'projectsgallery-div')
 $('<section>').attr('id', 'gallery').appendTo('.stuff')
+$('<div>').appendTo('.stuff').attr('id', 'gallerylinks-div')
 $('<section>').attr('id', 'links').appendTo('.stuff')
+$('<div>').appendTo('.stuff').attr('id', 'linkscontact-div')
 $('<section>').attr('id', 'contact').appendTo('.stuff')
 
 
@@ -185,7 +191,7 @@ $(`<label for="phone">`).appendTo('.form').text('Phone Number')
 $(`<input type="tel" id="phone" name="phone" placeholder= "ex. (888) 888-8888">`).appendTo('.form')
 
 $(`<label for="subject">`).appendTo('.form').text('Message')
-$(`<textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>`).appendTo('.form')
+$(`<textarea id="subject" name="subject" placeholder="Leave a message!" style="height:200px"></textarea>`).appendTo('.form')
 
 $(`<input type="submit" value="Submit">`).appendTo('.form')
 
