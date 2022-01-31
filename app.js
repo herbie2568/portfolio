@@ -104,22 +104,54 @@ $(`<img src = 'lilypics/left_arrow.png'>`).appendTo('.previous')
 
 ////carousel images////
 $('<div>').appendTo('.carousel-container').addClass('carousel-images')
-//bear mountain//
-$(`<img src ='lilypics/IMG_5463.HEIC.jpg'>`).appendTo('.carousel-images')
-//aquarium//
-$(`<img src ='lilypics/IMG_7627.HEIC.jpg'>`).appendTo('.carousel-images')
-//roxie CT//
-$(`<img src ='lilypics/IMG_8047.HEIC.jpg'>`).appendTo('.carousel-images')
-//holland tunnel vent//
-$(`<img src ='lilypics/IMG_8509.HEIC.jpg'>`).appendTo('.carousel-images')
-//madison sq park//
-$(`<img src ='lilypics/IMG_8826.HEIC.jpg'>`).appendTo('.carousel-images')
-//roxie south st seaport//
-$(`<img src ='lilypics/IMG_6193.HEIC.jpg'>`).appendTo('.carousel-images')
-//citibike//
-$(`<img src ='lilypics/IMG_6934.HEIC.jpg'>`).appendTo('.carousel-images')
-//bday pic//
-$(`<img src ='lilypics/IMG_8551 2.HEIC.jpg'>`).appendTo('.carousel-images')
+//5x5//
+$(`<img src ='cubes/IMG_1033.jpeg'>`).appendTo('.carousel-images')
+//7x7//
+$(`<img src ='cubes/IMG_1034.jpeg'>`).appendTo('.carousel-images')
+//9x9//
+$(`<img src ='cubes/IMG_1035.jpeg'>`).appendTo('.carousel-images')
+//4x4//
+$(`<img src ='cubes/IMG_1036.jpeg'>`).appendTo('.carousel-images')
+//mona lisa//
+$(`<img src ='cubes/IMG_1037.jpeg'>`).appendTo('.carousel-images')
+//go cube//
+$(`<img src ='cubes/IMG_1039.jpeg'>`).appendTo('.carousel-images')
+//3x3 from set//
+$(`<img src ='cubes/IMG_1040.jpeg'>`).appendTo('.carousel-images')
+//3x3 og//
+$(`<img src ='cubes/IMG_1041.jpeg'>`).appendTo('.carousel-images')
+//leaf//
+$(`<img src ='cubes/IMG_1042.jpeg'>`).appendTo('.carousel-images')
+//mirror//
+$(`<img src ='cubes/IMG_1043.jpeg'>`).appendTo('.carousel-images')
+//7x7//
+$(`<img src ='cubes/IMG_1044.jpeg'>`).appendTo('.carousel-images')
+//7x7//
+$(`<img src ='cubes/IMG_1045.jpeg'>`).appendTo('.carousel-images')
+//7x7//
+$(`<img src ='cubes/IMG_1046.jpeg'>`).appendTo('.carousel-images')
+//7x7//
+$(`<img src ='cubes/IMG_1047.jpeg'>`).appendTo('.carousel-images')
+//7x7//
+$(`<img src ='cubes/IMG_1048.jpeg'>`).appendTo('.carousel-images')
+//7x7//
+$(`<img src ='cubes/IMG_1049.jpeg'>`).appendTo('.carousel-images')
+//7x7//
+$(`<img src ='cubes/IMG_1050.jpeg'>`).appendTo('.carousel-images')
+//7x7//
+$(`<img src ='cubes/IMG_1051.jpeg'>`).appendTo('.carousel-images')
+//7x7//
+$(`<img src ='cubes/IMG_1052.jpeg'>`).appendTo('.carousel-images')
+//7x7//
+$(`<img src ='cubes/IMG_1053.jpeg'>`).appendTo('.carousel-images')
+//7x7//
+$(`<img src ='cubes/IMG_1054.jpeg'>`).appendTo('.carousel-images')
+//7x7//
+$(`<img src ='cubes/IMG_1055.jpeg'>`).appendTo('.carousel-images')
+
+
+
+
 
 
 /////next arrow////

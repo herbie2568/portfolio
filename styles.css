@@ -5,7 +5,251 @@
 * {
   border: 1px solid transparent;
 }
+@media only screen and (min-width: 1800px) {
+  header {
+    padding-top: 7%;
+    padding-left: 8%;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+  }
+  #header-name {
+    font-size: 550%;
+  }
+  .header-description {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+    padding-left: 1%;
+  }
+  .main-pic {
+    width: min(60vw, 800px);
+    /* max-width: 60vw; */
+    margin-left: 15%;
+    margin-top: 10%;
+    border-radius: 10px;
+    border: 1px solid white;
+  }
 
+  .nav-list {
+    display:flex;
+    justify-content: right;
+    list-style-type: none;
+    font-size: min(3vw, 36px);
+    font-family: 'Roboto', sans-serif;
+    margin: 10%;
+    padding: 2%;
+  }
+
+  .nav-list:hover {
+    cursor: pointer;
+    transform: scale(1.5);
+  }
+
+  .nav-bar {
+    right: 5%;
+    position: fixed;
+    /* margin-right: 5%; */
+
+  }
+
+  .nav-anchor {
+    text-decoration: none;
+      color:white;
+  }
+
+  .nav-anchor:hover {
+
+  color: lightgrey;
+  }
+
+  .navbar-div {
+    text-align: right;
+    justify-content: right;
+
+  }
+  .imgbar {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    flex-shrink: 1;
+    height: 700px;
+
+  }
+
+  h2 {
+    font-size: 52px;
+    font-family: 'JosefinSans-Regular';
+    padding-left: 10%;
+  }
+
+  #about {
+    height: 100vh;
+  }
+
+  .about-text, .projects-text, .gallery-text, .links-text, .contact-text {
+    padding-left: 10%;
+    padding-right: 30%;
+    /* padding-top: 5%; */
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+    color: lightgrey;
+  }
+  .about-text {
+    font-size: 3vh;
+  }
+
+  .about-pic {
+    width: min(300px, 25vw);
+    float: right;
+    margin-right: 30%;
+    margin-left: 3%;
+    margin-bottom: 0.5%;
+    border-radius: 10px;
+    border: 1px solid white;
+
+  }
+
+  .resume-text {
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    padding-left: 10%;
+    text-decoration: none;
+    color: white;
+    margin: 0 auto;
+  }
+  .resume-subtext {
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+    padding-left: 10%;
+    padding-right: 30%;
+  }
+
+  .projects-text, .links-text {
+    font-size: 36px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+    padding-left: 10%;
+    text-decoration: none;
+    color: lightgrey;
+  }
+
+  .zelda-div, .github-div {
+    margin-top: 10vh;
+    margin-bottom: 3%;
+  }
+
+  .linkedin-div, .facebook-div, .instagram-div, .fakeone-div, .faketwo-div {
+    margin-bottom: 3%;
+  }
+
+  #gallery {
+    height: 110vh;
+  }
+  .carousel-container {
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 10%;
+    padding-top: 5vh;
+
+  }
+
+  .carousel-images {
+    width: max(25vw, 400px);
+
+  }
+
+  .carousel-images img{
+    width: max(25vw, 400px);
+    border: 1px solid white;
+    border-radius: 10px;
+    display: none;
+    /* border: 1px solid white; */
+
+  }
+
+  .carousel-button {
+  	align-self: center;
+  	background: black;
+  	/* color: #888; */
+  	padding: 10px;
+  	border-radius: 50%;
+  	text-align: center;
+  }
+
+  .carousel-button:hover {
+  	cursor: pointer;
+  }
+
+  .carousel-images img:first-of-type {
+  	display: block;
+  }
+  .github-image {
+    position: fixed;
+    left: 8px;
+    bottom: 205px;
+    width: 35px;
+    height: 35px;
+  }
+  .github-image:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+
+  }
+
+  .linkedin-image {
+    position: fixed;
+    left: 10px;
+    bottom: 160px;
+    width: 30px;
+    height: 30px;
+  }
+  .linkedin-image:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+  }
+
+  .reddit-image {
+    width: 30px;
+    height: 30px;
+    left: 10px;
+    bottom: 10px;
+    position: fixed;
+  }
+  .reddit-image:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+  }
+
+  .facebook-image {
+    width: 30px;
+    height: 30px;
+    left: 10px;
+    bottom: 110px;
+    position: fixed;
+  }
+  .facebook-image:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+  }
+
+  .instagram-image {
+    width: 30px;
+    height: 30px;
+    left: 10px;
+    bottom: 60px;
+    position: fixed;
+  }
+  .instagram-image:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+  }
+
+
+}
 @media only screen and (max-width: 600px) {
   * {
   margin: 0;
@@ -173,6 +417,7 @@
 
   .carousel-images img{
     width: max(15vw, 250px);
+    border: 1px solid white;
     border-radius: 10px;
     display: none;
     /* border: 1px solid white; */
@@ -232,7 +477,7 @@
   }
 }
 
-@media (min-width: 600px) {
+@media (min-width: 600px) and (max-width: 1800px) {
 
   header {
     padding-top: 7%;
@@ -392,6 +637,7 @@
 
   .carousel-images img{
     width: max(25vw, 400px);
+    border: 1px solid white;
     border-radius: 10px;
     display: none;
     /* border: 1px solid white; */
