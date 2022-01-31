@@ -1,11 +1,75 @@
-/* * {
+* {
   border: 1px solid white;
-} */
+}
 
-@media (max-width: 600px) {
-  .header-name {
-    font-size: 30px;
+@media only screen and (max-width: 600px) {
+  * {
+  margin: 0;
+  padding: 0;
+}
+header {
+  padding-top: 7%;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+  #header-name {
+    font-size: 65px;
+    padding-top: 5%;
+    text-align: center;
   }
+  .header-description {
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    margin: 0 auto 5% auto;
+  }
+  .lilypics-div {
+    text-align: center;
+  }
+  .main-pic {
+    width: 330px;
+    margin-top: 10%;
+    border-radius: 10px;
+    border: 1px solid white;
+
+  }
+  .imgbar {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: flex-end;
+    height: 100vh;
+  }
+  .nav-list {
+    display: flex;
+    list-style-type: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 2.5vh;
+  }
+  .nav-bar {
+    position: sticky;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 5%;
+    gap: 20px;
+
+  }
+
+  .nav-anchor {
+    text-decoration: none;
+    color:white;
+  }
+
+  .about-div {
+    font-size: 10px;
+  }
+
+  #about {
+    height: 150vh;
+  }
+
   .carousel-images {
     width: 200px;
   }
@@ -13,13 +77,10 @@
     width: 200px;
   }
   .form {
-    width: 300px;
+    width: 250px;
   }
   .contact-div {
-    width: 300px;
-  }
-  .about-text {
-    font-size: 16px;
+    width: 250px;
   }
   #resume {
     height: 1500px;
@@ -33,6 +94,79 @@
 
 }
 
+@media (min-width: 600px) {
+
+  header {
+    padding-top: 7%;
+    padding-left: 8%;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+  }
+  #header-name {
+    font-size: 550%;
+  }
+  .header-description {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+    padding-left: 1%;
+  }
+  .main-pic {
+    width: min(60vw, 800px);
+    margin-left: 15%;
+    margin-top: 10%;
+    border-radius: 10px;
+    border: 1px solid white;
+  }
+
+  .nav-list {
+    display:flex;
+    justify-content: right;
+    list-style-type: none;
+    font-size: min(3vw, 48px);
+    font-family: 'Roboto', sans-serif;
+    margin: 10%;
+    padding: 2%;
+  }
+
+  .nav-list:hover {
+    cursor: pointer;
+    transform: scale(1.5);
+  }
+
+  .nav-bar {
+    right: 5%;
+    position: fixed;
+    /* margin-right: 5%; */
+
+  }
+
+  .nav-anchor {
+    text-decoration: none;
+      color:white;
+  }
+
+  .nav-anchor:hover {
+
+  color: lightgrey;
+  }
+
+  .navbar-div {
+    text-align: right;
+    justify-content: right;
+
+  }
+  .imgbar {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    flex-shrink: 1;
+    height: 700px;
+
+  }
+
+}
 html {
   scroll-behavior: smooth;
 }
@@ -49,13 +183,7 @@ body {
   color: white;
 }
 
-header {
-  padding-top: 7%;
-  padding-left: 8%;
-  display: flex;
-  justify-content: flex-start;
-  flex-direction: column;
-}
+
 
 p {
   font-size: 36px;
@@ -68,76 +196,10 @@ p {
   /* letter-spacing: 2px; */
 }
 
-.header-description {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 300;
-  font-size: 24px;
-  padding-left: 1%;
-}
 
-#header-name {
-  font-size: 550%;
-
-}
-
-.nav-list {
-  display:flex;
-  justify-content: right;
-  list-style-type: none;
-  font-size: min(3vw, 48px);
-  font-family: 'Roboto', sans-serif;
-  margin: 10%;
-  padding: 2%;
-}
-
-.nav-list:hover {
-  cursor: pointer;
-  transform: scale(1.5);
-}
-
-.nav-bar {
-  right: 5%;
-  position: fixed;
-  /* margin-right: 5%; */
-
-}
-
-.nav-anchor {
-  text-decoration: none;
-    color:white;
-}
-
-.nav-anchor:hover {
-
-color: lightgrey;
-}
-
-.navbar-div {
-  text-align: right;
-  justify-content: right;
-
-}
-
-.main-pic {
-  width: min(60vw, 800px);
-  margin-left: 15%;
-  margin-top: 10%;
-  border-radius: 10px;
-  border: 1px solid white;
-}
 
 .lilypics-div {
   border-radius: 10px;
-}
-
-
-.imgbar {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: flex-start;
-  flex-shrink: 1;
-  height: 700px;
-
 }
 
 #about {
