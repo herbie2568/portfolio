@@ -80,16 +80,18 @@ $('<p>').appendTo('#resume').text('Lorem ipsum dolor sit amet, consectetur adipi
 ///projects////
 $('<h2>').appendTo('#projects').text('projects')
 /////LEGEND OF ZELDA////
-$('<div>').appendTo('#projects').addClass('zelda-div')
-$(`<a href = 'https://lilysbotwgame.netlify.app/' target = '/blank' >`).appendTo('.zelda-div').text('The Legend of Zelda Game').addClass('projects-text')
+// $('<div>').appendTo('#projects').addClass('zelda-div')
+$('<div>').appendTo('#projects').addClass('projects-div')
+$(`<a href = 'https://lilysbotwgame.netlify.app/' target = '/blank' >`).appendTo('.projects-div').text('The Legend of Zelda Game').addClass('projects-text').addClass('project-one')
+$(`<img src= 'lilypics/zelda-ss.png'>`).appendTo('.project-one').addClass('zelda-ss1')
 
 /////DUMMY LINK/////
-$('<div>').appendTo('#projects').addClass('fakeone-div')
-$(`<a href = 'https://lilysbotwgame.netlify.app/' target = '/blank' >`).appendTo('.fakeone-div').text('Fake Project Two').addClass('projects-text')
+$(`<a href = 'https://lilysbotwgame.netlify.app/' target = '/blank' >`).appendTo('.projects-div').text('Fake Project Two').addClass('projects-text').addClass('project-two')
+$(`<img src= 'lilypics/zelda-ss.png'>`).appendTo('.project-two').addClass('zelda-ss2')
 
 /////DUMMY LINK 2/////
-$('<div>').appendTo('#projects').addClass('faketwo-div')
-$(`<a href = 'https://lilysbotwgame.netlify.app/' target = '/blank' >`).appendTo('.faketwo-div').text('Fake Project Three').addClass('projects-text')
+$(`<a href = 'https://lilysbotwgame.netlify.app/' target = '/blank' >`).appendTo('.projects-div').text('Fake Project Three').addClass('projects-text').addClass('project-three')
+$(`<img src= 'lilypics/zelda-ss.png'>`).appendTo('.project-three').addClass('zelda-ss3')
 
 
 
@@ -151,6 +153,9 @@ $(`<img src ='cubes/IMG_1054.jpeg'>`).appendTo('.carousel-images')
 /////next arrow////
 $('<div>').appendTo('.carousel-container').addClass('carousel-button').addClass('next')
 $(`<img src = 'lilypics/right_arrow.png'>`).appendTo('.next')
+
+////description////
+
 
 ////CAROUSEL JQUERY//////
 currentImgIndex = 0
