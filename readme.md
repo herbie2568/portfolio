@@ -1,5 +1,8 @@
 PROJECT 1 
 
+Website:
+https://lilychen-portfolio.netlify.app/
+
 Technologies used: 
 Pretty much all of my site was written with jQuery and CSS. I used Netlify to deploy my page.
 
