@@ -4,7 +4,7 @@ Website:
 https://lilychen-portfolio.netlify.app/
 
 Technologies used: 
-Pretty much all of my site was written with jQuery and CSS. I used Netlify to deploy my page.
+Pretty much all of my site was written with jQuery and CSS. I used Netlify to deploy my page. I used HTML to store links and to connect the files.
 
 Approach taken: 
 I made a single page site, with the nav bar scrolling to different sections of the website. I wanted to make the design of the website to have a sleek, modern look and not too many distractions. I used 3 different media queries for optimal viewing styles based on screen size.
