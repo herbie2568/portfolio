@@ -403,10 +403,7 @@
     margin-top: 10vh;
     margin-bottom: 10%;
   }
-  /* .zelda-ss {
-    width: 300px;
-    margin-left: 10%;
-  } */
+
   .zelda-div {
     display: flex;
     flex-direction: column;
@@ -471,13 +468,10 @@
   	text-align: center;
   }
 
-  .carousel-button:hover {
-  	cursor: pointer;
-  }
-
   .carousel-images img:first-of-type {
   	display: block;
   }
+
   .github-image {
     position: fixed;
     left: 5px;
@@ -521,11 +515,11 @@
   .form {
     display: flex;
     flex-direction: column;
-    width: 350px;
+    width: 320px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 100;
     font-size: 1.5rem;
-    margin-left: 10vw;
+    /* margin-left: 10vw; */
 
   }
 }
