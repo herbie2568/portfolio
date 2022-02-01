@@ -18,7 +18,7 @@
     align-self: center;
   }
   .header-description {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'roboto', sans-serif;
     font-weight: 300;
     font-size: 24px;
     align-self: center;
@@ -97,13 +97,13 @@
     padding-right: 30%;
     /* padding-top: 5%; */
     text-align: left;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'roboto', sans-serif;
     font-weight: 100;
     color: lightgrey;
   }
   .projects-text {
     padding-left: 10%;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'roboto', sans-serif;
     font-weight: 100;
     color: lightgrey;
     font-size: 36px;
@@ -128,7 +128,7 @@
 
   .resume-text {
     font-size: 36px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'roboto', sans-serif;
     font-weight: 300;
     padding-left: 10%;
     text-decoration: none;
@@ -137,7 +137,7 @@
   }
   .resume-subtext {
     font-size: 24px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'roboto', sans-serif;
     font-weight: 100;
     padding-left: 10%;
     padding-right: 30%;
@@ -145,7 +145,7 @@
 
   .links-text {
     font-size: 36px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'roboto', sans-serif;
     font-weight: 100;
     padding-left: 10%;
     text-decoration: none;
@@ -281,7 +281,7 @@
     display: flex;
     flex-direction: column;
     width: 500px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'roboto', sans-serif;
     font-weight: 100;
     font-size: 1.5rem;
     margin-left: 10vw;
@@ -310,7 +310,7 @@
   }
   .header-description {
     font-size: 20px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'roboto', sans-serif;
     font-weight: 300;
     margin: 0 auto 5% auto;
   }
@@ -373,7 +373,7 @@
     font-size: 22px;
     padding-left: 10%;
     padding-right: 10%;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'roboto', sans-serif;
     font-weight: 100;
     color: lightgrey;
     /* text-align: justify; */
@@ -388,7 +388,7 @@
   }
   .resume-text {
     font-size: 24px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'roboto', sans-serif;
     font-weight: 300;
     padding-left: 10%;
     text-decoration: none;
@@ -397,7 +397,7 @@
   }
   .resume-subtext {
     font-size: 16px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'roboto', sans-serif;
     font-weight: 100;
     padding-left: 10%;
     padding-right: 10%;
@@ -406,7 +406,7 @@
 
   .projects-text, .links-text {
     font-size: 20px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'roboto', sans-serif;
     font-weight: 100;
     padding-left: 10%;
     text-decoration: none;
@@ -535,7 +535,7 @@
     display: flex;
     flex-direction: column;
     width: 320px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'roboto', sans-serif;
     font-weight: 100;
     font-size: 1.5rem;
     /* margin-left: 10vw; */
@@ -557,7 +557,7 @@
     font-size: 550%;
   }
   .header-description {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'roboto', sans-serif;
     font-weight: 300;
     font-size: 24px;
     padding-left: 1%;
@@ -632,7 +632,7 @@
     padding-right: 30%;
     /* padding-top: 5%; */
     text-align: left;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'roboto', sans-serif;
     font-weight: 100;
     color: lightgrey;
   }
@@ -654,7 +654,7 @@
 
   .resume-text {
     font-size: 30px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'roboto', sans-serif;
     font-weight: 300;
     padding-left: 10%;
     text-decoration: none;
@@ -663,7 +663,7 @@
   }
   .resume-subtext {
     font-size: 20px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'roboto', sans-serif;
     font-weight: 100;
     padding-left: 10%;
     padding-right: 30%;
@@ -675,7 +675,7 @@
 
   .projects-text, .links-text {
     font-size: 30px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'roboto', sans-serif;
     font-weight: 100;
     padding-left: 10%;
     text-decoration: none;
@@ -685,6 +685,7 @@
     display: flex;
     flex-direction: column;
     width: 55vw;
+    padding-left: 5%;
 
   }
 
@@ -710,12 +711,12 @@
   }
 
   .carousel-images {
-    width: max(25vw, 400px);
+    width: 40vw;
 
   }
 
   .carousel-images img{
-    width: max(25vw, 400px);
+    width: 40vw;
     border: 1px solid white;
     border-radius: 10px;
     display: none;
@@ -803,7 +804,7 @@
     display: flex;
     flex-direction: column;
     width: 400px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'roboto', sans-serif;
     font-weight: 100;
     font-size: 1.5rem;
     margin-left: 10vw;
@@ -829,19 +830,16 @@ body {
 
 p {
   font-size: 36px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'roboto', sans-serif;
 }
 .header {
-
   font-family: 'JosefinSans-Regular';
-  /* word-spacing: 2px; */
-  /* letter-spacing: 2px; */
+
 }
 
 .lilypics-div {
   border-radius: 10px;
 }
-
 
 
 #resume {
@@ -892,14 +890,6 @@ a .projects-text {
   flex-direction: column;
 }
 
-/* .zelda-div {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  margin-top: 10vh;
-  margin-bottom: 3%;
-} */
-
 .github-div:hover, .linkedin-div:hover, .facebook-div:hover, .instagram-div:hover, .reddit-div:hover {
   transform: scale(1.2);
 
@@ -910,8 +900,6 @@ a .projects-text {
   width: 30px;
 }
 
-
-
 .contact-div {
   display: flex;
   justify-content: flex-start;
@@ -921,7 +909,6 @@ a .projects-text {
 
 }
 
-
 input[type=text], input[type=email], input[type=tel], textarea {
   padding: 10px;
   border: 1px solid white;
@@ -930,19 +917,19 @@ input[type=text], input[type=email], input[type=tel], textarea {
   margin-top: 10px;
   margin-bottom: 10px;
   resize: vertical;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'roboto', sans-serif;
 }
 input[type=submit] {
   background-color: #E6CD0F;
   padding: 10px;
   border-radius: 10px;
   cursor: pointer;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'roboto', sans-serif;
 
 }
 input[type=submit]:hover {
   background-color: white;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'roboto', sans-serif;
   transform: scale(1.1)
 
 }
