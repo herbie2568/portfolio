@@ -12,4 +12,4 @@ For some reason, my website looks different when going from the dev tools in my 
 Other thoughts: 
 1. I really wanted to finish the Zelda-themed game (in Projects page) that I was working on but unfortunately had no time.
 2. I feel like my website is kinda plain, and I tried to add background images to give it a little more life but it just didn't look good, so I left it black. I just wish I was better at the actual design of websites. 
-3. The CSS file fills up very fast, more time was spent looking for the right selector to do stuff for.
+3. The CSS file fills up very fast, more time was spent looking for the right selector to do stuff to.
