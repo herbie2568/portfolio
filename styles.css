@@ -1,6 +1,6 @@
-/* * {
+* {
   border: 1px solid white;
-} */
+}
 
 * {
   border: 1px solid transparent;
@@ -439,8 +439,14 @@
     justify-content: flex-start;
     /* padding-left: 10%; */
     padding-top: 5vh;
+    gap: 2px;
   }
+  .projects-div {
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
 
+  }
   #gallery {
     height: 90vh;
   }
@@ -524,6 +530,7 @@
   }
 }
 
+/* ///DESKTOP MEDIA QUERY///// */
 @media (min-width: 600px) and (max-width: 1600px) {
 
   header {
@@ -617,7 +624,7 @@
     color: lightgrey;
   }
   .about-text {
-    font-size: 3vh;
+    font-size: 2.7vh;
   }
 
   .about-pic {
@@ -656,6 +663,12 @@
     padding-left: 10%;
     text-decoration: none;
     color: lightgrey;
+  }
+  .projects-div {
+    display: flex;
+    flex-direction: column;
+    width: 70vw;
+
   }
 
   .github-div {
@@ -843,7 +856,8 @@ p {
 }
 
 .zelda-ss1, .zelda-ss2, .zelda-ss3 {
-  width: max(300px, 30vw);
+  width: max(300px, 10vw);
+  width:
   /* width: 30vw; */
   margin-left: 10%;
   border-radius: 10px;
@@ -862,11 +876,7 @@ a .projects-text {
   display:flex;
   flex-direction: column;
 }
-.projects-div {
-  display: flex;
-  flex-direction: column;
 
-}
 /* .zelda-div {
   display: flex;
   flex-direction: column;
