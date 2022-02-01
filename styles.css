@@ -452,6 +452,9 @@
     padding-top: 5vh;
     gap: 2px;
   }
+  #projects {
+    height: 130vh;
+  }
   .projects-div {
     display: flex;
     flex-direction: column;
@@ -462,11 +465,13 @@
     height: 90vh;
   }
   .carousel-images {
-    width: max(15vw, 250px);
+    /* width: max(15vw, 250px); */
+    width: 65vw;
   }
 
   .carousel-images img{
-    width: max(15vw, 250px);
+    /* width: max(15vw, 250px); */
+    width: 65vw;
     border: 1px solid white;
     border-radius: 10px;
     display: none;
@@ -665,7 +670,7 @@
   }
 
   #projects {
-    height: 130vh;
+    height: 140vh;
   }
 
   .projects-text, .links-text {
@@ -879,7 +884,7 @@ p {
 
 .zelda-ss1:hover, .zelda-ss2:hover, .zelda-ss3:hover {
   cursor:pointer;
-  transform: scale(1.2);
+  transform: scale(1.1);
 
 }
 a .projects-text {
