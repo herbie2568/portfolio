@@ -160,6 +160,20 @@
   .linkedin-div, .facebook-div, .instagram-div {
     margin-bottom: 3%;
   }
+  #projects {
+    height: 180vh;
+  }
+  .projects-div {
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    justify-content: center;
+    padding-left: 10%;
+
+  }
+  /* .projects-text {
+    height: 50vh;
+  } */
 
   #gallery {
     height: 110vh;
@@ -650,6 +664,10 @@
     padding-right: 30%;
   }
 
+  #projects {
+    height: 130vh;
+  }
+
   .projects-text, .links-text {
     font-size: 30px;
     font-family: 'Montserrat', sans-serif;
@@ -661,7 +679,7 @@
   .projects-div {
     display: flex;
     flex-direction: column;
-    width: 70vw;
+    width: 55vw;
 
   }
 
@@ -824,9 +842,7 @@ p {
 #resume {
   height: 140vh;
 }
-#projects {
-  height: 130vh;
-}
+
 
 #links {
   height: 100vh;
@@ -850,8 +866,8 @@ p {
 }
 
 .zelda-ss1, .zelda-ss2, .zelda-ss3 {
-  width: max(300px, 10vw);
-  width:
+  width: max(300px, 25vw);
+  /* width: min(500px, 20vw); */
   /* width: 30vw; */
   margin-left: 10%;
   border-radius: 10px;

@@ -1,12 +1,11 @@
 /////JQUERY/////
 $(() => {
 ////HEADER/////
-// const $h1 = $('<div>').appendTo
 
 $('<header>').appendTo('body').attr('id', 'header')
 $('<div>').text('LILY CHEN').appendTo('header').addClass('header').attr('id', 'header-name')
 $('<div>').text('full   stack   web   developer').appendTo('header').addClass('header-description')
-// $('<div>').text('Web Developer | ').appendTo('header').addClass('header').attr('id', 'header-description')
+
 
 /////MAIN IMAGE/////
 const $imgBar = $('<div>').appendTo('body').addClass('imgbar')
@@ -80,7 +79,7 @@ $('<p>').appendTo('#resume').text('Lorem ipsum dolor sit amet, consectetur adipi
 ///projects////
 $('<h2>').appendTo('#projects').text('projects')
 /////LEGEND OF ZELDA////
-// $('<div>').appendTo('#projects').addClass('zelda-div')
+
 $('<div>').appendTo('#projects').addClass('projects-div')
 $(`<a href = 'https://lilysbotwgame.netlify.app/' target = '/blank' >`).appendTo('.projects-div').text('The Legend of Zelda Game').addClass('projects-text').addClass('project-one')
 $(`<img src= 'lilypics/zelda-ss.png'>`).appendTo('.project-one').addClass('zelda-ss1')
@@ -97,7 +96,6 @@ $(`<img src= 'lilypics/zelda-ss.png'>`).appendTo('.project-three').addClass('zel
 
 ////gallery////
 $('<h2>').appendTo('#gallery').text('gallery')
-// $('<p>').appendTo('#gallery').text('Here are some pictures of me').addClass('gallery-text')
 
 $('<div>').appendTo('#gallery').addClass('carousel-container')
 ////previous arrow////
@@ -149,12 +147,9 @@ $(`<img src ='cubes/IMG_1053.jpeg'>`).appendTo('.carousel-images')
 //6x6//
 $(`<img src ='cubes/IMG_1054.jpeg'>`).appendTo('.carousel-images')
 
-
 /////next arrow////
 $('<div>').appendTo('.carousel-container').addClass('carousel-button').addClass('next')
 $(`<img src = 'lilypics/right_arrow.png'>`).appendTo('.next')
-
-////description////
 
 
 ////CAROUSEL JQUERY//////
@@ -181,15 +176,12 @@ currentImgIndex = 0
   })
 
 
-
 ////links////
 $('<h2>').appendTo('#links').text('links')
 ///GITHUB////
 $('<div>').appendTo('#links').addClass('github-div')
 
 $(`<a href = 'https://github.com/herbie2568' target = '/blank'>`).appendTo('.github-div').text('github').addClass('links-text')
-// $(`<img src='lilypics/github_icon.png'>`).appendTo('.github-div').addClass('github-logo')
-
 
 
 ///LINKEDIN////
@@ -253,22 +245,6 @@ $(`<img src='lilypics/facebook-logo-color.png'>`).appendTo('.facebook-logo').add
 ////INSTAGRAM LOGO///
 $(`<a href = 'https://www.instagram.com/sugarsmaster/' target = '/blank'>`).addClass('instagram-logo').appendTo('.skyline-div')
 $(`<img src='lilypics/instagram-logo-color.webp'>`).appendTo('.instagram-logo').addClass('instagram-image')
-
-////COLOR ICONS////
-////GITHUB ICON////
-// $(`<img src='lilypics/github-logo-color.png'>`).appendTo('.skyline-div').addClass('github-logo')
-//
-// ////LINKEDIN LOGO///
-// $(`<img src='lilypics/linkedin-logo-color.png'>`).appendTo('.skyline-div').addClass('linkedin-logo')
-//
-// ////REDDIT LOGO///
-// $(`<img src='lilypics/reddit-logo-color.png'>`).appendTo('.skyline-div').addClass('reddit-logo')
-//
-// ////FACEBOOK LOGO///
-// $(`<img src='lilypics/facebook-logo-color.png'>`).appendTo('.skyline-div').addClass('facebook-logo')
-//
-// ////INSTAGRAM LOGO///
-// $(`<img src='lilypics/instagram-logo-color.webp'>`).appendTo('.skyline-div').addClass('instagram-logo')
 
 
 })
