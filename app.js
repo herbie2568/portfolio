@@ -55,7 +55,7 @@ $('<section>').attr('id', 'contact').appendTo('.stuff')
 $('<h2>').appendTo('#about').text('about')
 $('<div>').appendTo('#about').addClass('about-div')
 $(`<img src ='lilypics/IMG_3661.jpeg'>`).appendTo('.about-div').addClass('about-pic')
-$('<p>').appendTo('.about-div').text('Hi, I\'m Lily! I\'m a software engineer based in Brooklyn, NY. I enjoy doing both front end and back end web development. You can usually find me biking, swimming, playing the piano/cello, solving Rubik\'s cubes (check the gallery to see my collection!), playing video games, or walking my dog Roxie. I\'m also a bit of a Jeopardy nerd and do watch it religiously. I love learning new things and am constantly honing my current skills. Feel free to check out my website to see all my random stuff!').addClass('about-text')
+$('<p>').appendTo('.about-div').text('Hi, I\'m Lily! I\'m a software engineer based in Brooklyn, NY and I am 23 years old. I enjoy doing both front end and back end web development. You can usually find me biking, swimming, playing the piano/cello, solving Rubik\'s cubes (check the gallery to see my collection!), playing video games, or walking my dog Roxie. I\'m also a bit of a Jeopardy nerd and do watch it religiously. I love learning new things and am constantly honing my current skills. Feel free to check out my website to see all my random stuff!').addClass('about-text')
 
 
 
