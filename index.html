@@ -1,17 +1,220 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
 <head>
-  <meta charset="utf-8">
-  <link rel="stylesheet" href="styles.css" />
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script src="app.js"></script>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400&family=Roboto:wght@100&display=swap" rel="stylesheet">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Lily Chen's Portfolio</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="app.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400&family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/e81f9a3ca6.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lily Chen's Portfolio</title>
 </head>
 <body>
+    <img src = 'https://i.imgur.com/49GuNX8.jpg' class = 'citybackground'></img>
+    <header id = 'header'>
+        <div class = 'header' id = 'header-name'>LILY CHEN</div>
+        <div class = 'navbar-div'>
+            <ul class = 'nav-bar'>
+                <li class = 'nav-list' id = 'home-li'><a href = '#header' class = 'nav-anchor'>HOME</a></li>
+                <li class = 'nav-list' id = 'home-li'><a href = '#about' class = 'nav-anchor'>ABOUT</a></li>
+                <li class = 'nav-list' id = 'home-li'><a href = '#resume' class = 'nav-anchor'>RESUME</a></li>
+                <li class = 'nav-list' id = 'home-li'><a href = '#projects' class = 'nav-anchor'>PROJECTS</a></li>
+                <li class = 'nav-list' id = 'home-li'><a href = '#gallery' class = 'nav-anchor'>GALLERY</a></li>
+                <li class = 'nav-list' id = 'home-li'><a href = '#contact' class = 'nav-anchor'>CONTACT</a></li>
+            </ul>
+        </div>
+
+    </header>
+    <div class = 'imgbar'>
+        <div class = 'main-text-div'>
+            <h1 class = 'main-text'>Hello! <span>I'm Lily Chen.</span></h1>
+            <h3>I'm a full stack <span>web developer and software engineer</span> based in Brooklyn, NY. I have a passion for building <span>user-friendly experiences</span> and bringing them to life with code.</h3>
+            <div class = 'aboutButtonDiv'><a href = '#about' class = 'aboutButton'>ABOUT ME</a></div>
+            <!-- <div class = 'icons'>
+            <a href="https://github.com/herbie2568" target="/blank" ><i class="fa-brands fa-github fa-2x"></i></a>
+            <a href="https://www.linkedin.com/in/lilychen910/" target="/blank" ><i class="fa-brands fa-linkedin fa-2x"></i></a>
+        </div> -->
+    </div>
+    <div class="lilypics-div"><img src="https://i.imgur.com/liPWnI2.jpg?1" class="main-pic"></div>
+
+</div>
+<div class = 'stuff'>
+    <div id = 'homeabout-div'></div>
+    <section id = 'about'>
+        <h2>ABOUT</h2>
+
+        <div class = 'about-div'>
+            <div>
+                <img src="lilypics/IMG_3661.jpeg" class="about-pic"></img>
+            </div>
+            <div>
+                <p class = 'about-text'>Hi, I'm Lily! I'm a software engineer based in Brooklyn, NY and I am 23 years old. I have a vast array of knowledge in different front-end and back-end languages, frameworks, and databases. I enjoy solving complex problems and believe in the great power of technology to advance the ever-growing industry. <br/><br/>You can usually find me biking, swimming, playing the piano/cello, solving Rubik's cubes (check the gallery to see my collection!), playing video games, or walking my dog Roxie. I'm also a bit of a Jeopardy nerd and watch it religiously. I love learning new things and am constantly honing my current skills. Feel free to browse around and check out my portfolio projects!</p>
+                <div class = 'contactButtonDiv'><a href = '#contact' class = 'contactButton'>CONTACT ME</a></div>
+            </div>
+        </div>
+    </section>
+    <div id = 'aboutresume-div'></div>
+    <section id = 'resume'>
+        <h2>RESUME & SKILLS</h2>
+        <div class = 'resumeskillContainer'>
+            <div class = 'resumeContainer'>
+                <h4 class = 'resumeHeader'>RESUME</h4>
+                <img src = 'https://i.imgur.com/J3UuM3K.png' class = 'resumePic'></img>
+            </div>
+            <div class = 'divider'></div>
+            <div class = 'skillContainer'>
+                <h4 class = 'resumeHeader'>SKILLS</h4>
+                <div class = 'skillIcons'>
+                    <div class = 'skillIconRow'>
+                        <i class="devicon-html5-plain-wordmark"></i>
+                        <i class="devicon-css3-plain-wordmark"></i>
+                        <i class="devicon-javascript-plain"></i>
+                        <i class="devicon-jquery-plain-wordmark"></i>
+                    </div>
+                    <div class = 'skillIconRow'>
+                        <i class="devicon-typescript-plain"></i>
+                        <i class="devicon-react-original-wordmark"></i>
+                        <i class="devicon-mongodb-plain-wordmark"></i>
+                        <i class="devicon-python-plain-wordmark"></i>
+                    </div>
+                    <div class = 'skillIconRow'>
+                        <i class="devicon-django-plain"></i>
+                        <i class="devicon-postgresql-plain-wordmark"></i>
+                        <i class="devicon-express-original"></i>
+                        <i class="devicon-nodejs-plain"></i>
+                    </div>
+                    <div class = 'skillIconRow'>
+                        <i class="devicon-heroku-original-wordmark"></i>
+                        <i class="devicon-git-plain"></i>
+                        <i class="devicon-github-original-wordmark"></i>
+                        <i class="devicon-vscode-plain"></i>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <div id = 'resumeprojects-div'></div>
+    <section id = 'projects'>
+        <h2>PROJECTS</h2>
+        <div class = 'projectsContainer'>
+            <div class = 'chordstrike'>
+                <div class = 'projectInfo'>
+                <h2 class = 'projectTitle'>CHORDSTRIKE</h2>
+                <div class = 'projectText'>An embedded Javascript application that stores information about your favorite songs, generates playlists of your desired length, and also displays the corresponding music videos. Built with <span>EJS, Express, Node.js</span> and <span>MongoDB.</span></div>
+                <div class = 'projectButtons'>
+                    <a class = 'projectAnchor' href = 'https://github.com/herbie2568/crud-app' target = '_blank'>GITHUB</a>
+                    <a class = 'projectAnchor' href = 'https://aqueous-dawn-39470.herokuapp.com/' target = '_blank'>LIVE LINK</a>
+                </div>
+            </div>
+                <a href = 'https://aqueous-dawn-39470.herokuapp.com/' target = '_blank'><img class = 'projectImg' src = 'https://i.imgur.com/wbb8hua.png'></img></a>
+            </div>
+            <div class = 'seoulsisters'>
+                <div class = 'projectInfo'>
+                <h2 class = 'projectTitle'>SEOUL SISTERS</h2>
+                <div class = 'projectText'>An e-commerce React application displaying various Asian grocery projects. Visitors can browse products and leave reviews while site administrators can add/edit/delete products. Built with <span>React, Express, Node.js</span> and <span>MongoDB.</span></div>
+                <div class = 'projectButtons'>
+                    <a class = 'projectAnchor' href = 'https://github.com/herbie2568/grocery-frontend' target = '_blank'>GITHUB</a>
+                    <a class = 'projectAnchor' href = 'https://seoulsisters.netlify.app/' target = '_blank'>LIVE LINK</a>
+                </div>
+
+            </div>
+                <a href = 'https://seoulsisters.netlify.app/' target = '_blank'><img class = 'projectImg' src = 'https://i.imgur.com/fxABD34.png'></img></a>
+            </div>
+            <div class = 'disc'>
+                <div class = 'projectInfo'>
+                <h2 class = 'projectTitle'>DISC</h2>
+                <div class = 'projectText'>A React application where musicians can upload their own music for other artists to listen. Users can update their personal profile details and listen to Youtube/Soundcloud/Vimeo links directly from the app. Built with <span>React, Django, Node.js</span> and <span>Postgres SQL.</span></div>
+                <div class = 'projectButtons'>
+                    <a class = 'projectAnchor' href = 'https://github.com/herbie2568/music-frontend2' target = '_blank'>GITHUB</a>
+                    <a class = 'projectAnchor' href = 'https://gentle-caverns-01145.herokuapp.com/' target = '_blank'>LIVE LINK</a>
+                </div>
+            </div>
+                <a href = 'https://gentle-caverns-01145.herokuapp.com/' target = '_blank'><img class = 'projectImg' src = 'https://i.imgur.com/urjNCOS.png'></img></a>
+            </div>
+            <div class = 'missionatom'>
+                <div class = 'projectInfo'>
+                <h2 class = 'projectTitle'>MISSION ATOM</h2>
+                <div class = 'projectText'>A space-themed React application where users can browse imaginary planets to potentially travel to. Users can also browse space related products to accompany their trip. Built with <span>React, Express, Node.js</span> and <span>MongoDB.</span></div>
+                <div class = 'projectButtons'>
+                    <a class = 'projectAnchor' href = 'https://github.com/herbie2568/space-app-client/tree/master/space-app' target = '_blank'>GITHUB</a>
+                    <a class = 'projectAnchor' href = 'https://sleepy-refuge-80013.herokuapp.com/' target = '_blank'>LIVE LINK</a>
+                </div>
+            </div>
+                <a href = 'https://sleepy-refuge-80013.herokuapp.com/' target = '_blank'><img class = 'projectImg' src = 'https://i.imgur.com/9HCpPBK.png'></img></a>
+            </div>
+        </div>
+    </section>
+    <div id = 'projectsgallery-div'></div>
+    <section id = 'gallery'>
+        <h2>GALLERY</h2>
+        <h2 class = 'galleryText'>Check out my puzzle collection below!</h2>
+        <div class="slideshow-container">
+
+
+            <!-- Full-width images with number and caption text -->
+            <div class="mySlides fade">
+                <div class="numbertext">1 / 3</div>
+                <img class = 'cubePic' src="cubes/IMG_1033.jpeg" >
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">2 / 3</div>
+                <img class = 'cubePic' src="cubes/IMG_1034.jpeg" >
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">3 / 3</div>
+                <img class = 'cubePic' src="cubes/IMG_1035.jpeg" >
+            </div>
+
+            <!-- Next and previous buttons -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <br>
+
+    </section>
+
+    <div id = 'linkscontact-div'></div>
+    <section id = 'contact'>
+        <h2>CONTACT</h2>
+        <div class ='contact-div'>
+            <form action="action_page.php" target="/blank" class="form">
+                <h3 class = 'messageText'>Get in touch with me! Fill in the info in the form below and I look forward to your message.</h3>
+                <input class = 'input' type="text" id="fname" name="name" placeholder="Name...">
+
+
+                <input class = 'input' type="email" id="email" name="email" placeholder="Email...">
+
+
+                <textarea class = 'message' id="subject" name="subject" placeholder="Leave a message!" style="height:200px"></textarea>
+
+                <input class = 'submitButton' type="submit" value="SEND MESSAGE">
+            </form>
+            <div class = 'socials'>
+                <a href="mailto:chenlily1998@gmail.com" target="/blank" class="github-logo"><i class="fa-solid fa-envelope bottomicon"></i></a>
+                <a href="https://github.com/herbie2568" target="/blank" class="github-logo"><i class="fa-brands fa-github bottomicon"></i></a>
+
+                <a href="https://www.linkedin.com/in/lilychen910/" target="/blank" class="linkedin-logo"><i class="fa-brands fa-linkedin bottomicon"></i></a>
+                <a href="https://www.instagram.com/sugarsmaster/" target="/blank" class="instagram-logo"><i class="fa-brands fa-instagram bottomicon"></i></a>
+
+            </div>
+        </section>
+    </div>
+    <footer class="footer">
+        <div>
+        © 2022 | DESIGNED BY <a class =
+        'footerlink' href="https://www.linkedin.com/in/lilychen910/" target="/blank">LILY CHEN</a>
+        </div>
+    </footer>
 
 </body>
 </html>
