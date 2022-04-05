@@ -31,6 +31,7 @@ header {
     justify-content: space-between;
     flex-wrap: wrap;
     background: black;
+
 }
 
 span {
@@ -149,13 +150,15 @@ filter: grayscale();
 
 .aboutButton {
     text-decoration: none;
-    padding: 12px 40px;
+    padding: 12px 20px 12px 40px;
     border: 3px solid #448560;
     font-size: 20px;
     border-radius: 2px;
     transition-duration: 0.4s;
 }
-
+.fa-angle-down {
+    font-size: 20px;
+}
 .aboutButton:hover {
     background: white;
     color: black;
@@ -231,6 +234,11 @@ h2 {
 
 .resumePic {
     width: 420px;
+    transition-duration: 0.4s;
+}
+
+.resumePic:hover {
+    opacity: 0.6;
 }
 
 .resumeContainer {
@@ -258,6 +266,70 @@ h2 {
     flex-direction: row;
     justify-content: center;
     gap: 30px;
+}
+
+.devicon-html5-plain-wordmark:hover {
+    color: #e34c26;
+}
+
+.devicon-css3-plain-wordmark:hover {
+    color: #3C99DC;
+}
+
+.devicon-javascript-plain:hover {
+    color: #F0DB4F;
+}
+
+.devicon-jquery-plain-wordmark:hover {
+    color: #0868AC;
+}
+
+.devicon-typescript-plain:hover {
+    color: #007acc;
+}
+
+.devicon-react-original-wordmark:hover {
+    color: #61DBFB;
+}
+
+.devicon-mongodb-plain-wordmark:hover {
+    color: #4DB33D;
+}
+
+.devicon-python-plain-wordmark:hover {
+    color: #4B8BBE;
+}
+
+.devicon-django-plain:hover {
+    color: #092e20;
+}
+
+.devicon-postgresql-plain-wordmark:hover {
+    color: #2F6792;
+}
+
+.devicon-nodejs-plain:hover {
+    color: #3c873A;
+}
+
+.devicon-heroku-original-wordmark:hover {
+    color: #6762A6;
+}
+
+.devicon-git-plain:hover {
+    color: #F1502F;
+}
+
+.devicon-github-original-wordmark:hover {
+    color: #AD5C51;
+}
+
+.devicon-express-original:hover {
+    color: black;
+}
+
+.devicon-vscode-plain:hover {
+    color: #0078d7;
 }
 
 .resumeHeader {
