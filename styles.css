@@ -31,7 +31,9 @@ header {
     justify-content: space-between;
     flex-wrap: wrap;
     background: black;
-
+    position: fixed;
+    width: 100vw;
+    z-index: 999;
 }
 
 span {
@@ -97,7 +99,7 @@ filter: grayscale();
 }
 
 .imgbar {
-    padding-top: 20vh;
+    padding-top: 30vh;
     padding-bottom: 20vh;
     display: flex;
     flex-direction: row;
@@ -173,7 +175,7 @@ h2 {
 }
 
 #about {
-    padding-top: 5vh;
+    padding-top: 10vh;
     padding-left: 20vw;
     padding-right: 20vw;
 }
@@ -217,14 +219,14 @@ h2 {
 }
 
 #resume {
-    padding-top: 5vh;
+    padding-top: 10vh;
     padding-left: 15vw;
-    padding-right: 15vw;
+    padding-right: 12vw;
 
 }
 
 .resumeskillContainer {
-    margin-top: 10vh;
+    margin-top: 5vh;
     margin-bottom: 15vh;
     display: flex;
     flex-direction: row;
@@ -351,7 +353,7 @@ i {
 
 }
  #projects {
-     padding-top: 5vh;
+     padding-top: 10vh;
      padding-left: 20vw;
      padding-right: 20vw;
  }
@@ -417,7 +419,7 @@ i {
  }
 
  #gallery {
-     padding-top: 5vh;
+     padding-top: 10vh;
      padding-left: 15vw;
      padding-right: 15vw;
  }
@@ -426,7 +428,7 @@ i {
      color: white;
      text-align: center;
      font-size: 30px;
-     margin-top: 10vh;
+     margin-top: 5vh;
  }
 
  * {box-sizing:border-box}
@@ -494,7 +496,7 @@ i {
 }
 
 #contact {
-    padding-top: 5vh;
+    padding-top: 10vh;
     padding-left: 15vw;
     padding-right: 15vw;
 }
@@ -586,4 +588,32 @@ i {
 }
 img {
     width: 250px;
+}
+
+@media (min-width: 600px) and (max-width: 1500px) {
+    header {
+      padding-top: 3vh;
+
+      display: flex;
+      flex-direction: column;
+    }
+
+    #header-name {
+        align-self: center;
+        display: none;
+    }
+
+    .nav-bar {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        /* gap: 5vw; */
+    }
+
+    .main-text-div h3 {
+        font-size: 1.5em;
+    }
+
+
+
 }
