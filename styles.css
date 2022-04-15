@@ -114,8 +114,12 @@ filter: grayscale();
     font-size: 24px;
 }
 
-.main-pic {
+.lilypics-div {
     width: 450px;
+}
+
+.main-pic {
+    width: 100%;
     border-radius: 50%;
     border: 8px solid #448560;
 }
@@ -129,7 +133,9 @@ filter: grayscale();
 .main-text {
     font-size: 4em;
     font-weight: 500;
+
 }
+
 
 .imgbar h3 {
     font-weight: 400;
@@ -610,8 +616,21 @@ img {
         /* gap: 5vw; */
     }
 
+    .main-text {
+        font-size: 2.8em;
+    }
+
     .main-text-div h3 {
-        font-size: 1.5em;
+        font-size: 1.2em;
+    }
+
+    .lilypics-div {
+        width: 300px;
+    }
+
+    .main-pic {
+        width: 100%;
+        border: 5px solid #448560;
     }
 
 
