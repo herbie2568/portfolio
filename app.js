@@ -249,6 +249,36 @@
 //
 // })
 
+// <section id = 'gallery'>
+//     <h2>GALLERY</h2>
+//     <h2 class = 'galleryText'>Check out my puzzle collection below!</h2>
+//     <div class="slideshow-container">
+//
+//
+//         <!-- Full-width images with number and caption text -->
+//         <div class="mySlides fade">
+//             <div class="numbertext">1 / 3</div>
+//             <img class = 'cubePic' src="cubes/IMG_1033.jpeg" >
+//         </div>
+//
+//         <div class="mySlides fade">
+//             <div class="numbertext">2 / 3</div>
+//             <img class = 'cubePic' src="cubes/IMG_1034.jpeg" >
+//         </div>
+//
+//         <div class="mySlides fade">
+//             <div class="numbertext">3 / 3</div>
+//             <img class = 'cubePic' src="cubes/IMG_1035.jpeg" >
+//         </div>
+//
+//         <!-- Next and previous buttons -->
+//         <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+//         <a class="next" onclick="plusSlides(1)">&#10095;</a>
+//     </div>
+//     <br>
+//
+// </section>
+
 let slideIndex = 1;
 showSlides(slideIndex);
 
